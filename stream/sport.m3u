@@ -10,34 +10,34 @@ http://sportlo.live:8080/thmanyah-22/video.m3u8
 http://sportlo.live:8080/thmanyah-33/video.m3u8
 
 #EXTINF:-1 tvg-id="Bein1.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 1 (HD)
-http://sportlo.live:8080/BEIN-1/video.m3u8
+http://sportlo.live:8080/BEIN-11/video.m3u8
 #EXTINF:-1 tvg-id="Bein2.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 2 (HD)
-http://sportlo.live:8080/BEIN-2/video.m3u8
+http://sportlo.live:8080/BEIN-22/video.m3u8
 #EXTINF:-1 tvg-id="Bein3.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 3 (HD)
-http://sportlo.live:8080/BEIN-3/video.m3u8
+http://sportlo.live:8080/BEIN-33/video.m3u8
 #EXTINF:-1 tvg-id="Bein4.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 4 (HD)
-http://sportlo.live:8080/BEIN-4/video.m3u8
+http://sportlo.live:8080/BEIN-44/video.m3u8
 #EXTINF:-1 tvg-id="Bein5.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 5 (HD)
-http://sportlo.live:8080/BEIN-5/video.m3u8
+http://sportlo.live:8080/BEIN-55/video.m3u8
 #EXTINF:-1 tvg-id="Bein6.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 6 (HD)
-http://sportlo.live:8080/BEIN-6/video.m3u8
+http://sportlo.live:8080/BEIN-66/video.m3u8
 #EXTINF:-1 tvg-id="Bein7.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 7 (HD)
-http://sportlo.live:8080/BEIN-7/video.m3u8
+http://sportlo.live:8080/BEIN-77/video.m3u8
 
 #EXTINF:-1 tvg-id="SSC1.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC 1 (HD)
-http://sportlo.live:8080/SSC-1/video.m3u8
+http://sportlo.live:8080/SSC-11/video.m3u8
 #EXTINF:-1 tvg-id="SSC2.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC 2 (HD)
-http://sportlo.live:8080/SSC-2/video.m3u8
+http://sportlo.live:8080/SSC-22/video.m3u8
 #EXTINF:-1 tvg-id="SSC3.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC 3 (HD)
-http://sportlo.live:8080/SSC-3/video.m3u8
+http://sportlo.live:8080/SSC-33/video.m3u8
 #EXTINF:-1 tvg-id="SSC4.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC 4 (HD)
-http://sportlo.live:8080/SSC-4/video.m3u8
+http://sportlo.live:8080/SSC-44/video.m3u8
 #EXTINF:-1 tvg-id="SSC5.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC 5 (HD)
-http://sportlo.live:8080/SSC-5/video.m3u8
+http://sportlo.live:8080/SSC-55/video.m3u8
 #EXTINF:-1 tvg-id="SSCExtra1.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC Extra 1 (HD)
-http://sportlo.live:8080/SSC-EXTRA-1/video.m3u8
+http://sportlo.live:8080/SSC-EXTRA-11/video.m3u8
 #EXTINF:-1 tvg-id="SSCExtra2.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC Extra 2 (HD)
-http://sportlo.live:8080/SSC-EXTRA-2/video.m3u8
+http://sportlo.live:8080/SSC-EXTRA-22/video.m3u8
 
 #EXTINF:-1 tvg-id="Alkass1.qa" tvg-logo="https://3-pr.github.io/logos/al.jpeg" group-title="Sports", Al Kass 1 (HD)
 https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass1buoicft/master.m3u8
