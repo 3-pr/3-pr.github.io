@@ -11,8 +11,10 @@ http://sportlo.live:8080/thmanyah-33/video.m3u8
 
 #EXTINF:-1 tvg-id="Bein1.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 1 (HD)
 http://sportlo.live:8080/BEIN-11/video.m3u8
-#EXTINF:-1 tvg-id="Bein1.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 1 (HD) server 2
+#EXTINF:-1 tvg-id="Bein1.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 1 (HD)- server 2
 https://wo.cma.footballii.ir/hls2/b1_high.m3u8
+#EXTINF:-1 tvg-id="Bein1.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 1 (HD) - server 3
+http://188.241.219.157/live/halabja88/halabja88/274122.ts?token=ShJdY2ZmQQNHCmMZCDZXUh9GSHAWGFMD.ZDsGQVN.WGBFNX013GR9YV1QbGBp0QE9SWmpcXlQXXlUHWlcbRxFACmcDY1tXEVkbVAoAAQJUFxUbRFldAxdeUAdaVAFcUwcHAhwWQlpXQQMLTFhUG0FQQU1VQl4HWTsFVBQLVABGCVxEXFgeEVwNZgFcWVlZBxcDGwESHERcFxETWAxCCQgfEFNZQEBSRwYbX1dBVFtPF1pWRV5EFExGWxMmJxVJRlZKRVVaQVpcDRtfG0BLFU8XUEpvQlUVQRYEUA8HRUdeEQITHBZfUks8WgpXWl1UF1xWV0MSCkQERk0TDw1ZDBBcQG5AXVYRCQ1MCVVJ
 #EXTINF:-1 tvg-id="Bein2.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 2 (HD)
 http://sportlo.live:8080/BEIN-22/video.m3u8
 #EXTINF:-1 tvg-id="Bein3.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 3 (HD)
