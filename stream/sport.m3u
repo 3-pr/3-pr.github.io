@@ -51,3 +51,5 @@ https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass2hefazqft/master.m3u8
 https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass3vakazqft/master340.m3u8
 #EXTINF:-1 tvg-id="Alkass4.qa" tvg-logo="https://3-pr.github.io/logos/al.jpeg" group-title="Sports", Al Kass 4 (HD)
 https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass4azqaft/master450.m3u8
+#EXTINF:-1 tvg-id="Alkass1.qa" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="Sports", STARZPLAY SPORT 2 (HD)
+http://sportlo.live:8080/AD-PREMIUM-2/video.m3u8
