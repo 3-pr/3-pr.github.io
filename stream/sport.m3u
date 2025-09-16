@@ -74,5 +74,9 @@ https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass2hefazqft/master.m3u8
 https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass3vakazqft/master340.m3u8
 #EXTINF:-1 tvg-id="Alkass4.qa" tvg-logo="https://3-pr.github.io/logos/al.jpeg" group-title="Sports", Al Kass 4 (HD)
 https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass4azqaft/master450.m3u8
-#EXTINF:-1 tvg-id="Alkass1.qa" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="Sports", STARZPLAY SPORT 2 (HD)
+#EXTINF:-1 tvg-id="star1.qa" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="Sports", STARZPLAY SPORT 1 (HD)
+http://sportlo.live:8080/AD-PREMIUM-1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="star2.qa" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="Sports", STARZPLAY SPORT 2 (HD)
 http://sportlo.live:8080/AD-PREMIUM-2/video.m3u8
+#EXTINF:-1 tvg-id="skyP.en" tvg-logo="https://3-pr.github.io/logos/Sky.JPG" group-title="Sports", Sky sport premier league (HD)
+http://178.33.239.54:8080/506/index.m3u8
