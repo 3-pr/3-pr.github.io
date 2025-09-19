@@ -4,10 +4,16 @@
 http://sportlo.live:8080/thmanyah-1/video.m3u8
 #EXTINF:-1 tvg-id="Thmanyah1.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Sports", Thmanyah 1 (HD) server 2
 https://yallagoal.stream-e7e.workers.dev/Thmanyah1.m3u8
+#EXTINF:-1 tvg-id="Thmanyah1.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Sports", Thmanyah 1 (HD) server 3
+http://1789-181.123091763.it.com/live/696998_.m3u8
 #EXTINF:-1 tvg-id="Thmanyah2.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Sports", Thmanyah 2 (HD)
 http://sportlo.live:8080/thmanyah-22/video.m3u8
+#EXTINF:-1 tvg-id="Thmanyah2.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Sports", Thmanyah 2 (HD) server 2
+http://1789-181.123091763.it.com/live/310421_.m3u8
 #EXTINF:-1 tvg-id="Thmanyah3.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Sports", Thmanyah 3 (HD)
 http://sportlo.live:8080/thmanyah-33/video.m3u8
+#EXTINF:-1 tvg-id="Thmanyah3.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Sports", Thmanyah 3 (HD) server 2
+http://1789-181.123091763.it.com/live/982038_.m3u8
 
 #EXTINF:-1 tvg-id="Bein1.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 1 (HD)
 http://sportlo.live:8080/BEIN-11/video.m3u8
