@@ -1,76 +1,94 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-id="Thmanyah1.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Sports", Thmanyah 1 (HD)
-http://sportlo.live:8080/thmanyah-1/video.m3u8
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/235
 #EXTINF:-1 tvg-id="Thmanyah1.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Sports", Thmanyah 1 (HD) server 2
-https://yallagoal.stream-e7e.workers.dev/Thmanyah1.m3u8
-#EXTINF:-1 tvg-id="Thmanyah1.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Sports", Thmanyah 1 (HD) server 3
 http://1789-181.123091763.it.com/live/696998_.m3u8
 #EXTINF:-1 tvg-id="Thmanyah2.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Sports", Thmanyah 2 (HD)
-http://sportlo.live:8080/thmanyah-22/video.m3u8
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/236
 #EXTINF:-1 tvg-id="Thmanyah2.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Sports", Thmanyah 2 (HD) server 2
 http://1789-181.123091763.it.com/live/310421_.m3u8
 #EXTINF:-1 tvg-id="Thmanyah3.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Sports", Thmanyah 3 (HD)
-http://sportlo.live:8080/thmanyah-33/video.m3u8
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/237
 #EXTINF:-1 tvg-id="Thmanyah3.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Sports", Thmanyah 3 (HD) server 2
 http://1789-181.123091763.it.com/live/982038_.m3u8
 
-#EXTINF:-1 tvg-id="Bein1.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 1 (HD)
-http://sportlo.live:8080/BEIN-11/video.m3u8
-#EXTINF:-1 tvg-id="Bein1.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 1 (HD)- server 2
-https://wo.cma.footballii.ir/hls2/b1_high.m3u8
-#EXTINF:-1 tvg-id="Bein1.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 1 (HD) - server 3
-http://188.241.219.157/live/halabja88/halabja88/274122.ts?token=ShJdY2ZmQQNHCmMZCDZXUh9GSHAWGFMD.ZDsGQVN.WGBFNX013GR9YV1QbGBp0QE9SWmpcXlQXXlUHWlcbRxFACmcDY1tXEVkbVAoAAQJUFxUbRFldAxdeUAdaVAFcUwcHAhwWQlpXQQMLTFhUG0FQQU1VQl4HWTsFVBQLVABGCVxEXFgeEVwNZgFcWVlZBxcDGwESHERcFxETWAxCCQgfEFNZQEBSRwYbX1dBVFtPF1pWRV5EFExGWxMmJxVJRlZKRVVaQVpcDRtfG0BLFU8XUEpvQlUVQRYEUA8HRUdeEQITHBZfUks8WgpXWl1UF1xWV0MSCkQERk0TDw1ZDBBcQG5AXVYRCQ1MCVVJ
-#EXTINF:-1 tvg-id="Bein2.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 2 (HD)
-http://sportlo.live:8080/BEIN-22/video.m3u8
-#EXTINF:-1 tvg-id="Bein2.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 2 (HD) - server 2
-http://188.241.219.157:80/live/halabja88/halabja88/274123.ts?token=ShJdY2ZmQQNHCmMZCDZXUh9GSHAWGFMD.ZDsGQVN.WGBFNX013GR9YV1QbGBp0QE9SWmpcXlQXXlUHWlcbRxFACmcDY1tXEVkbVAoAAQJUFxUbRFldAxdeUAdaVAFcUwcHAhwWQlpXQQMLTFhUG0FQQU1VQl4HWTsFVBQLVABGCVxEXFgeEVwNZgFcWVlZBxcDGwESHERcFxETWAxCCQgfEFNZQEBSRwYbX1dBVFtPF1pWRV5EFExGWxMmJxVJRlZKRVVaQVpcDRtfG0BLFU8XUEpvQlUVQRYEUA8HRUdeEQITHBZfUks8WgpXWl1UF1xWV0MSCkQERk0TDw1ZDBBcQG5AXVYRCQ1MCVVJ
-#EXTINF:-1 tvg-id="Bein3.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 3 (HD)
-http://sportlo.live:8080/BEIN-33/video.m3u8
-#EXTINF:-1 tvg-id="Bein3.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 3 (HD) - server 2
-http://188.241.219.157:80/live/halabja88/halabja88/274124.ts?token=ShJdY2ZmQQNHCmMZCDZXUh9GSHAWGFMD.ZDsGQVN.WGBFNX013GR9YV1QbGBp0QE9SWmpcXlQXXlUHWlcbRxFACmcDY1tXEVkbVAoAAQJUFxUbRFldAxdeUAdaVAFcUwcHAhwWQlpXQQMLTFhUG0FQQU1VQl4HWTsFVBQLVABGCVxEXFgeEVwNZgFcWVlZBxcDGwESHERcFxETWAxCCQgfEFNZQEBSRwYbX1dBVFtPF1pWRV5EFExGWxMmJxVJRlZKRVVaQVpcDRtfG0BLFU8XUEpvQlUVQRYEUA8HRUdeEQITHBZfUks8WgpXWl1UF1xWV0MSCkQERk0TDw1ZDBBcQG5AXVYRCQ1MCVVJ
-#EXTINF:-1 tvg-id="Bein4.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 4 (HD)
-http://sportlo.live:8080/BEIN-44/video.m3u8
-#EXTINF:-1 tvg-id="Bein4.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 4 (HD) - server 2
-http://188.241.219.157:80/live/halabja88/halabja88/274125.ts?token=ShJdY2ZmQQNHCmMZCDZXUh9GSHAWGFMD.ZDsGQVN.WGBFNX013GR9YV1QbGBp0QE9SWmpcXlQXXlUHWlcbRxFACmcDY1tXEVkbVAoAAQJUFxUbRFldAxdeUAdaVAFcUwcHAhwWQlpXQQMLTFhUG0FQQU1VQl4HWTsFVBQLVABGCVxEXFgeEVwNZgFcWVlZBxcDGwESHERcFxETWAxCCQgfEFNZQEBSRwYbX1dBVFtPF1pWRV5EFExGWxMmJxVJRlZKRVVaQVpcDRtfG0BLFU8XUEpvQlUVQRYEUA8HRUdeEQITHBZfUks8WgpXWl1UF1xWV0MSCkQERk0TDw1ZDBBcQG5AXVYRCQ1MCVVJ
-#EXTINF:-1 tvg-id="Bein5.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 5 (HD)
-http://sportlo.live:8080/BEIN-55/video.m3u8
-#EXTINF:-1 tvg-id="Bein5.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 5 (HD) - server 2
-http://188.241.219.157:80/live/halabja88/halabja88/274126.ts?token=ShJdY2ZmQQNHCmMZCDZXUh9GSHAWGFMD.ZDsGQVN.WGBFNX013GR9YV1QbGBp0QE9SWmpcXlQXXlUHWlcbRxFACmcDY1tXEVkbVAoAAQJUFxUbRFldAxdeUAdaVAFcUwcHAhwWQlpXQQMLTFhUG0FQQU1VQl4HWTsFVBQLVABGCVxEXFgeEVwNZgFcWVlZBxcDGwESHERcFxETWAxCCQgfEFNZQEBSRwYbX1dBVFtPF1pWRV5EFExGWxMmJxVJRlZKRVVaQVpcDRtfG0BLFU8XUEpvQlUVQRYEUA8HRUdeEQITHBZfUks8WgpXWl1UF1xWV0MSCkQERk0TDw1ZDBBcQG5AXVYRCQ1MCVVJ
-#EXTINF:-1 tvg-id="Bein6.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 6 (HD)
-http://sportlo.live:8080/BEIN-66/video.m3u8
-#EXTINF:-1 tvg-id="Bein6.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 6 (HD) - server 2
-http://188.241.219.157:80/live/halabja88/halabja88/274127.ts?token=ShJdY2ZmQQNHCmMZCDZXUh9GSHAWGFMD.ZDsGQVN.WGBFNX013GR9YV1QbGBp0QE9SWmpcXlQXXlUHWlcbRxFACmcDY1tXEVkbVAoAAQJUFxUbRFldAxdeUAdaVAFcUwcHAhwWQlpXQQMLTFhUG0FQQU1VQl4HWTsFVBQLVABGCVxEXFgeEVwNZgFcWVlZBxcDGwESHERcFxETWAxCCQgfEFNZQEBSRwYbX1dBVFtPF1pWRV5EFExGWxMmJxVJRlZKRVVaQVpcDRtfG0BLFU8XUEpvQlUVQRYEUA8HRUdeEQITHBZfUks8WgpXWl1UF1xWV0MSCkQERk0TDw1ZDBBcQG5AXVYRCQ1MCVVJ
-#EXTINF:-1 tvg-id="Bein7.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 7 (HD)
-http://sportlo.live:8080/BEIN-77/video.m3u8
-#EXTINF:-1 tvg-id="Bein7.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 7 (HD) - server 2
-http://188.241.219.157:80/live/halabja88/halabja88/274128.ts?token=ShJdY2ZmQQNHCmMZCDZXUh9GSHAWGFMD.ZDsGQVN.WGBFNX013GR9YV1QbGBp0QE9SWmpcXlQXXlUHWlcbRxFACmcDY1tXEVkbVAoAAQJUFxUbRFldAxdeUAdaVAFcUwcHAhwWQlpXQQMLTFhUG0FQQU1VQl4HWTsFVBQLVABGCVxEXFgeEVwNZgFcWVlZBxcDGwESHERcFxETWAxCCQgfEFNZQEBSRwYbX1dBVFtPF1pWRV5EFExGWxMmJxVJRlZKRVVaQVpcDRtfG0BLFU8XUEpvQlUVQRYEUA8HRUdeEQITHBZfUks8WgpXWl1UF1xWV0MSCkQERk0TDw1ZDBBcQG5AXVYRCQ1MCVVJ
-#EXTINF:-1 tvg-id="Bein8.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 8 (HD)
-http://188.241.219.157:80/live/halabja88/halabja88/274129.ts?token=ShJdY2ZmQQNHCmMZCDZXUh9GSHAWGFMD.ZDsGQVN.WGBFNX013GR9YV1QbGBp0QE9SWmpcXlQXXlUHWlcbRxFACmcDY1tXEVkbVAoAAQJUFxUbRFldAxdeUAdaVAFcUwcHAhwWQlpXQQMLTFhUG0FQQU1VQl4HWTsFVBQLVABGCVxEXFgeEVwNZgFcWVlZBxcDGwESHERcFxETWAxCCQgfEFNZQEBSRwYbX1dBVFtPF1pWRV5EFExGWxMmJxVJRlZKRVVaQVpcDRtfG0BLFU8XUEpvQlUVQRYEUA8HRUdeEQITHBZfUks8WgpXWl1UF1xWV0MSCkQERk0TDw1ZDBBcQG5AXVYRCQ1MCVVJ
-#EXTINF:-1 tvg-id="Bein9.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports 9 (HD)
-http://188.241.219.157:80/live/halabja88/halabja88/274130.ts?token=ShJdY2ZmQQNHCmMZCDZXUh9GSHAWGFMD.ZDsGQVN.WGBFNX013GR9YV1QbGBp0QE9SWmpcXlQXXlUHWlcbRxFACmcDY1tXEVkbVAoAAQJUFxUbRFldAxdeUAdaVAFcUwcHAhwWQlpXQQMLTFhUG0FQQU1VQl4HWTsFVBQLVABGCVxEXFgeEVwNZgFcWVlZBxcDGwESHERcFxETWAxCCQgfEFNZQEBSRwYbX1dBVFtPF1pWRV5EFExGWxMmJxVJRlZKRVVaQVpcDRtfG0BLFU8XUEpvQlUVQRYEUA8HRUdeEQITHBZfUks8WgpXWl1UF1xWV0MSCkQERk0TDw1ZDBBcQG5AXVYRCQ1MCVVJ
-#EXTINF:-1 tvg-id="Beinx1.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports extra 1 (HD)
-http://188.241.219.157:80/live/halabja88/halabja88/274131.ts?token=ShJdY2ZmQQNHCmMZCDZXUh9GSHAWGFMD.ZDsGQVN.WGBFNX013GR9YV1QbGBp0QE9SWmpcXlQXXlUHWlcbRxFACmcDY1tXEVkbVAoAAQJUFxUbRFldAxdeUAdaVAFcUwcHAhwWQlpXQQMLTFhUG0FQQU1VQl4HWTsFVBQLVABGCVxEXFgeEVwNZgFcWVlZBxcDGwESHERcFxETWAxCCQgfEFNZQEBSRwYbX1dBVFtPF1pWRV5EFExGWxMmJxVJRlZKRVVaQVpcDRtfG0BLFU8XUEpvQlUVQRYEUA8HRUdeEQITHBZfUks8WgpXWl1UF1xWV0MSCkQERk0TDw1ZDBBcQG5AXVYRCQ1MCVVJ
-#EXTINF:-1 tvg-id="Beinx2.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports extra 2 (HD)
-http://188.241.219.157:80/live/halabja88/halabja88/274132.ts?token=ShJdY2ZmQQNHCmMZCDZXUh9GSHAWGFMD.ZDsGQVN.WGBFNX013GR9YV1QbGBp0QE9SWmpcXlQXXlUHWlcbRxFACmcDY1tXEVkbVAoAAQJUFxUbRFldAxdeUAdaVAFcUwcHAhwWQlpXQQMLTFhUG0FQQU1VQl4HWTsFVBQLVABGCVxEXFgeEVwNZgFcWVlZBxcDGwESHERcFxETWAxCCQgfEFNZQEBSRwYbX1dBVFtPF1pWRV5EFExGWxMmJxVJRlZKRVVaQVpcDRtfG0BLFU8XUEpvQlUVQRYEUA8HRUdeEQITHBZfUks8WgpXWl1UF1xWV0MSCkQERk0TDw1ZDBBcQG5AXVYRCQ1MCVVJ
-#EXTINF:-1 tvg-id="Beinx3.qa" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports", beIN Sports extra 3 (HD)
-http://188.241.219.157:80/live/halabja88/halabja88/274133.ts?token=ShJdY2ZmQQNHCmMZCDZXUh9GSHAWGFMD.ZDsGQVN.WGBFNX013GR9YV1QbGBp0QE9SWmpcXlQXXlUHWlcbRxFACmcDY1tXEVkbVAoAAQJUFxUbRFldAxdeUAdaVAFcUwcHAhwWQlpXQQMLTFhUG0FQQU1VQl4HWTsFVBQLVABGCVxEXFgeEVwNZgFcWVlZBxcDGwESHERcFxETWAxCCQgfEFNZQEBSRwYbX1dBVFtPF1pWRV5EFExGWxMmJxVJRlZKRVVaQVpcDRtfG0BLFU8XUEpvQlUVQRYEUA8HRUdeEQITHBZfUks8WgpXWl1UF1xWV0MSCkQERk0TDw1ZDBBcQG5AXVYRCQ1MCVVJ
 
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS FULL 1 4k" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="SPORT H265",beIN SPORTS FULL 1 4k
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/99
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS FULL 2 4K" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="SPORT H265",beIN SPORTS FULL 2 4K
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/100
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS FULL 3 4K" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="SPORT H265",beIN SPORTS FULL 3 4K
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/101
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS FULL 4 4K" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="SPORT H265",beIN SPORTS FULL 4 4K
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/102
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS FULL 5 4K" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="SPORT H265",beIN SPORTS FULL 5 4K
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/103
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS FULL 6 4K" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="SPORT H265",beIN SPORTS FULL 6 4K
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/104
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS FULL 7 4K" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="SPORT H265",beIN SPORTS FULL 7 4K
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/105
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS FULL 8 4k" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="SPORT H265",beIN SPORTS FULL 8 4k
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/106
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS FULL 9 4k" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="SPORT H265",beIN SPORTS FULL 9 4k
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/107
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports HD 1" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 720P",BeIN Sports HD 1
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/4
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports HD 2" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 720P",BeIN Sports HD 2
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/18
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports  HD 3" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 720P",BeIN Sports  HD 3
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/26
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports HD 4" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 720P",BeIN Sports HD 4
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/27
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports HD 5" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 720P",BeIN Sports HD 5
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/28
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports HD 6" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 720P",BeIN Sports HD 6
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/29
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports HD 7" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 720P",BeIN Sports HD 7
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/30
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports HD 8" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 720P",BeIN Sports HD 8
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/31
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports HD 9" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 720P",BeIN Sports HD 9
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/32
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports XTRA 1 HD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 720P",BeIN Sports XTRA 1 HD
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/33
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports XTRA 2 HD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 720P",BeIN Sports XTRA 2 HD
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/34
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports XTRA 3 HD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="STC SPORT",BeIN Sports XTRA 3 HD
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/35
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports SD 1" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 480P",BeIN Sports SD 1
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/53
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports SD 2" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 480P",BeIN Sports SD 2
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/54
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports SD 3" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 480P",BeIN Sports SD 3
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/55
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports SD 4" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 480P",BeIN Sports SD 4
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/56
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports SD 5" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 480P",BeIN Sports SD 5
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/57
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports SD 6" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 480P",BeIN Sports SD 6
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/58
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports SD 7" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 480P",BeIN Sports SD 7
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/59
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports SD 8" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 480P",BeIN Sports SD 8
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/60
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports SD 9" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 480P",BeIN Sports SD 9
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/61
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports XTRA 1 SD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 480P",BeIN Sports XTRA 1 SD
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/62
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports XTRA 2 SD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 480P",BeIN Sports XTRA 2 SD
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/76
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports XTRA 3 SD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEIN 480P",BeIN Sports XTRA 3 SD
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/77
 
-#EXTINF:-1 tvg-id="SSC1.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC 1 (HD)
-http://sportlo.live:8080/SSC-11/video.m3u8
-#EXTINF:-1 tvg-id="SSC2.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC 2 (HD)
-http://sportlo.live:8080/SSC-22/video.m3u8
-#EXTINF:-1 tvg-id="SSC3.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC 3 (HD)
-http://sportlo.live:8080/SSC-33/video.m3u8
-#EXTINF:-1 tvg-id="SSC4.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC 4 (HD)
-http://sportlo.live:8080/SSC-44/video.m3u8
-#EXTINF:-1 tvg-id="SSC5.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC 5 (HD)
-http://sportlo.live:8080/SSC-55/video.m3u8
+#EXTINF:-1 tvg-id="SSC1.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC 1 (SD)
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/64
+#EXTINF:-1 tvg-id="SSC2.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC 2 (SD)
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/65
+#EXTINF:-1 tvg-id="SSC3.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC 3 (SD)
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/66
 #EXTINF:-1 tvg-id="SSCExtra1.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC Extra 1 (HD)
-http://sportlo.live:8080/SSC-EXTRA-11/video.m3u8
-#EXTINF:-1 tvg-id="SSCExtra2.sa" tvg-logo="https://3-pr.github.io/logos/ssc.png" group-title="Sports", SSC Extra 2 (HD)
-http://sportlo.live:8080/SSC-EXTRA-22/video.m3u8
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/69
 
 #EXTINF:-1 tvg-id="Alkass1.qa" tvg-logo="https://3-pr.github.io/logos/al.jpeg" group-title="Sports", Al Kass 1 (HD)
 https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass1buoicft/master.m3u8
@@ -80,9 +98,23 @@ https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass2hefazqft/master.m3u8
 https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass3vakazqft/master340.m3u8
 #EXTINF:-1 tvg-id="Alkass4.qa" tvg-logo="https://3-pr.github.io/logos/al.jpeg" group-title="Sports", Al Kass 4 (HD)
 https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass4azqaft/master450.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="AR | ALKASS 1 HD" tvg-logo="" group-title="BEIN 720P",AR | ALKASS 1 HD - server 2
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/162
+#EXTINF:-1 tvg-id="" tvg-name="AR | ALKASS 2 HD" tvg-logo="" group-title="BEIN 720P",AR | ALKASS 2 HD  - server 2
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/163
+#EXTINF:-1 tvg-id="" tvg-name="AR | ALKASS 3 HD" tvg-logo="" group-title="BEIN 720P",AR | ALKASS 3 HD  - server 2
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/164
+#EXTINF:-1 tvg-id="" tvg-name="AR | ALKASS 4 HD" tvg-logo="" group-title="BEIN 720P",AR | ALKASS 4 HD  - server 2
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/165
+#EXTINF:-1 tvg-id="" tvg-name="AR | ALKASS 5 HD" tvg-logo="" group-title="BEIN 720P",AR | ALKASS 5 HD
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/166
 #EXTINF:-1 tvg-id="star1.qa" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="Sports", STARZPLAY SPORT 1 (HD)
-http://sportlo.live:8080/AD-PREMIUM-1/tracks-v1a1/mono.m3u8
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/168
+#EXTINF:-1 tvg-id="star1.qa" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="Sports", STARZPLAY SPORT 1 (HD) - server 2
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/233
 #EXTINF:-1 tvg-id="star2.qa" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="Sports", STARZPLAY SPORT 2 (HD)
-http://sportlo.live:8080/AD-PREMIUM-2/video.m3u8
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/232
+#EXTINF:-1 tvg-id="" tvg-name="STARZPLAY AD SPORTS ASIA 1 HD" tvg-logo="" group-title="BEIN 720P",STARZPLAY AD SPORTS ASIA 1 HD
+http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/170
 #EXTINF:-1 tvg-id="skyP.en" tvg-logo="https://3-pr.github.io/logos/Sky.JPG" group-title="Sports", Sky sport premier league (HD)
 http://178.33.239.54:8080/506/index.m3u8
