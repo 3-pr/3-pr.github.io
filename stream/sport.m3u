@@ -121,3 +121,18 @@ http://178.33.239.54:8080/506/index.m3u8
 http://goldiptvofficiel.tv:25461/live/Exchopenatv/SxhzUQvA8cR4FDGDGERFDG/61144.ts
 #EXTINF:-1 tvg-id="" tvg-name="||AR.BEIN|| BEIN SPORTS 3 PREMIUM FHD+" tvg-logo="https://assets.bein.com/mena/sites/4/2015/06/beIN_SPORTS3_DIGITAL_Mono.png" group-title="OSN ARABE CHANNELS/ عربية OSN قنوات ",||AR.BEIN|| BEIN SPORTS 3 PREMIUM FHD+
 http://goldiptvofficiel.tv:25461/live/Exchopenatv/SxhzUQvA8cR4FDGDGERFDG/61145.ts
+
+
+
+#EXTINF:-1 tvg-id="bein" tvg-name="BeIN Sports HD 1" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports",BeIN Sports HD 1
+http://het104a.4rouwanda-shop.store:80/live/918454578001/index.m3u8
+#EXTINF:-1 tvg-id="bein" tvg-name="BeIN Sports HD 2" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports",BeIN Sports HD 2
+http://het104a.4rouwanda-shop.store/live/69854211/index.m3u8
+#EXTINF:-1 tvg-id="bein" tvg-name="BeIN Sports  HD 3" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports",BeIN Sports  HD 3
+http://het104a.4rouwanda-shop.store/live/645587700/index.m3u8
+#EXTINF:-1 tvg-id="bein" tvg-name="BeIN Sports HD 4" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports",BeIN Sports HD 4
+http://het104a.4rouwanda-shop.store/live/9787488847/index.m3u8
+#EXTINF:-1 tvg-id="bein" tvg-name="BeIN Sports HD 5" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports",BeIN Sports HD 5
+http://het104a.4rouwanda-shop.store/live/610303030/index.m3u8
+#EXTINF:-1 tvg-id="bein" tvg-name="BeIN Sports HD 6" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports",BeIN Sports HD 6
+http://het104a.4rouwanda-shop.store/live/1515000000/index.m3u8
