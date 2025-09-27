@@ -116,8 +116,7 @@ http://bridge-gpu.ktube.biz:25461/CHAFIC/Vziy7eFFLB/170
 #EXTINF:-1 tvg-id="skyP.en" tvg-logo="https://3-pr.github.io/logos/Sky.JPG" group-title="Sports", Sky sport premier league (HD)
 http://178.33.239.54:8080/506/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="||AR.BEIN|| BEIN SPORTS 1 PREMIUM FHD+" tvg-logo="https://assets.bein.com/mena/sites/4/2015/06/beIN_SPORTS1_DIGITAL_Mono.png" group-title="BEIN SPORT ARABE CHANNELS/قنوات بين سبورت عربية",||AR.BEIN|| BEIN SPORTS 1 PREMIUM FHD+
-http://goldiptvofficiel.tv:25461/live/Exchopenatv/SxhzUQvA8cR4FDGDGERFDG/61143.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="||AR.BEIN|| BEIN SPORTS 2 PREMIUM FHD+" tvg-logo="https://assets.bein.com/mena/sites/4/2021/02/beIN_SPORTS2_DIGITAL_Mono.png" group-title="BEIN SPORT ARABE CHANNELS/قنوات بين سبورت عربية",||AR.BEIN|| BEIN SPORTS 2 PREMIUM FHD+
 http://goldiptvofficiel.tv:25461/live/Exchopenatv/SxhzUQvA8cR4FDGDGERFDG/61144.ts
 #EXTINF:-1 tvg-id="" tvg-name="||AR.BEIN|| BEIN SPORTS 3 PREMIUM FHD+" tvg-logo="https://assets.bein.com/mena/sites/4/2015/06/beIN_SPORTS3_DIGITAL_Mono.png" group-title="OSN ARABE CHANNELS/ عربية OSN قنوات ",||AR.BEIN|| BEIN SPORTS 3 PREMIUM FHD+
