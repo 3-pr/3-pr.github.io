@@ -136,3 +136,10 @@ http://het104a.4rouwanda-shop.store/live/9787488847/index.m3u8
 http://het104a.4rouwanda-shop.store/live/610303030/index.m3u8
 #EXTINF:-1 tvg-id="bein" tvg-name="BeIN Sports HD 6" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports",BeIN Sports HD 6
 http://het104a.4rouwanda-shop.store/live/1515000000/index.m3u8
+
+#EXTINF:-1 tvg-id="bein" tvg-name="BeIN Sports HD 1" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports",BeIN Sports HD 1
+https://wo.cma.footballii.ir/hls2/b1_high.m3u8
+#EXTINF:-1 tvg-id="bein" tvg-name="BeIN Sports HD 1" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports",BeIN Sports HD 2
+https://wo.cma.footballii.ir/hls2/b2_high.m3u8
+#EXTINF:-1 tvg-id="bein" tvg-name="BeIN Sports HD 1" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="Sports",BeIN Sports HD 3
+https://wo.cma.footballii.ir/hls2/b3_high.m3u8
