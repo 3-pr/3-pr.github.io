@@ -100,99 +100,98 @@ https://wo.cma.footballii.ir/hls2/b3_high.m3u8
 
 
 
-#EXTINF:-1 tvg-id="1806584" tvg-name="AR| BEIN SPORT" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT
+#EXTINF:-1 tvg-id="1806584" tvg-name="AR| BEIN SPORT" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806584&extension=ts&play_token=ZRyy0jqtTM
-#EXTINF:-1 tvg-id="1806583" tvg-name="AR| BEIN NEWS" group-title="BEE| BEIN SPORTS",AR| BEIN NEWS
+#EXTINF:-1 tvg-id="1806583" tvg-name="AR| BEIN NEWS" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEE| BEIN SPORTS",AR| BEIN NEWS
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806583&extension=ts&play_token=jyNYC2F3so
-#EXTINF:-1 tvg-id="1806582" tvg-name="AR| BEIN SPORT 01 FHD" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 01 FHD
+#EXTINF:-1 tvg-id="1806582" tvg-name="AR| BEIN SPORT 01 FHD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 01 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806582&extension=ts&play_token=stF2Pf0iAV
-#EXTINF:-1 tvg-id="1806581" tvg-name="AR| BEIN SPORT 02 FHD" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 02 FHD
+#EXTINF:-1 tvg-id="1806581" tvg-name="AR| BEIN SPORT 02 FHD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 02 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806581&extension=ts&play_token=Yog1LvOYk1
-#EXTINF:-1 tvg-id="1806580" tvg-name="AR| BEIN SPORT 03 FHD" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 03 FHD
+#EXTINF:-1 tvg-id="1806580" tvg-name="AR| BEIN SPORT 03 FHD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 03 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806580&extension=ts&play_token=fG6scx5o3k
-#EXTINF:-1 tvg-id="1806579" tvg-name="AR| BEIN SPORT 04 FHD" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 04 FHD
+#EXTINF:-1 tvg-id="1806579" tvg-name="AR| BEIN SPORT 04 FHD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 04 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806579&extension=ts&play_token=QYwJgb27qJ
-#EXTINF:-1 tvg-id="1806578" tvg-name="AR| BEIN SPORT 05 FHD" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 05 FHD
+#EXTINF:-1 tvg-id="1806578" tvg-name="AR| BEIN SPORT 05 FHD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 05 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806578&extension=ts&play_token=sgGrgl80rn
-#EXTINF:-1 tvg-id="1806577" tvg-name="AR| BEIN SPORT 06 FHD" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 06 FHD
+#EXTINF:-1 tvg-id="1806577" tvg-name="AR| BEIN SPORT 06 FHD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 06 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806577&extension=ts&play_token=ZYy1ADAToH
-#EXTINF:-1 tvg-id="1806576" tvg-name="AR| BEIN SPORT 07 FHD" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 07 FHD
+#EXTINF:-1 tvg-id="1806576" tvg-name="AR| BEIN SPORT 07 FHD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 07 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806576&extension=ts&play_token=xte4gYNCoU
-#EXTINF:-1 tvg-id="1806575" tvg-name="AR| BEIN SPORT 08 FHD" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 08 FHD
+#EXTINF:-1 tvg-id="1806575" tvg-name="AR| BEIN SPORT 08 FHD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 08 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806575&extension=ts&play_token=2XBD234gse
-#EXTINF:-1 tvg-id="1806574" tvg-name="AR| BEIN SPORT 09 FHD" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 09 FHD
+#EXTINF:-1 tvg-id="1806574" tvg-name="AR| BEIN SPORT 09 FHD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 09 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806574&extension=ts&play_token=S0RWqarpiv
-#EXTINF:-1 tvg-id="1806573" tvg-name="AR| BEIN SPORT 01 HD" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 01 HD
+#EXTINF:-1 tvg-id="1806573" tvg-name="AR| BEIN SPORT 01 HD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 01 HD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806573&extension=ts&play_token=JDd9yGsNx6
-#EXTINF:-1 tvg-id="1806572" tvg-name="AR| BEIN SPORT 02 HD" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 02 HD
+#EXTINF:-1 tvg-id="1806572" tvg-name="AR| BEIN SPORT 02 HD" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" group-title="BEE| BEIN SPORTS",AR| BEIN SPORT 02 HD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806572&extension=ts&play_token=VxoUWG9zID
 
-#EXTINF:-1 tvg-id="988043" tvg-name="##### STARZPLAY / AD SPORT #####" group-title="AR| STARZPLAY / AD SPORTS",##### STARZPLAY / AD SPORT #####
-http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=988043&extension=ts&play_token=5E6FIVJmMb
-#EXTINF:-1 tvg-id="1790153" tvg-name="AR| AD SPORT FIGHT HD" group-title="AR| STARZPLAY / AD SPORTS",AR| AD SPORT FIGHT HD
-http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1790153&extension=ts&play_token=Q4zPA3dPxy
-#EXTINF:-1 tvg-id="1790152" tvg-name="AR| AD SPORT FIGHT SD" group-title="AR| STARZPLAY / AD SPORTS",AR| AD SPORT FIGHT SD
-http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1790152&extension=ts&play_token=e5ztNtcdx1
-#EXTINF:-1 tvg-id="1790151" tvg-name="AR| AD SPORT FIGHT RAW" group-title="AR| STARZPLAY / AD SPORTS",AR| AD SPORT FIGHT RAW
-http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1790151&extension=ts&play_token=PF7lOi4yKe
-#EXTINF:-1 tvg-id="988032" tvg-name="AR| STARZPLAY / AD SPORT 1 HD" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORT 1 HD
+#EXTINF:-1 tvg-id="988032" tvg-name="AR| STARZPLAY / AD SPORT 1 HD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORT 1 HD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=988032&extension=ts&play_token=B5UooKTXFE
-#EXTINF:-1 tvg-id="988033" tvg-name="AR| STARZPLAY / AD SPORT 2 HD" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORT 2 HD
+#EXTINF:-1 tvg-id="988033" tvg-name="AR| STARZPLAY / AD SPORT 2 HD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORT 2 HD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=988033&extension=ts&play_token=3Jnb0OYHMW
-#EXTINF:-1 tvg-id="988034" tvg-name="AR| STARZPLAY / AD SPORT 3 HD" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORT 3 HD
+#EXTINF:-1 tvg-id="988034" tvg-name="AR| STARZPLAY / AD SPORT 3 HD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORT 3 HD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=988034&extension=ts&play_token=1xiNiAHumE
-#EXTINF:-1 tvg-id="988035" tvg-name="AR| STARZPLAY / AD SPORT 4 HD" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORT 4 HD
+#EXTINF:-1 tvg-id="988035" tvg-name="AR| STARZPLAY / AD SPORT 4 HD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORT 4 HD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=988035&extension=ts&play_token=RoGKBScXoo
-#EXTINF:-1 tvg-id="988036" tvg-name="AR| STARZPLAY / AD SPORT 5 HD" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORT 5 HD
+#EXTINF:-1 tvg-id="988036" tvg-name="AR| STARZPLAY / AD SPORT 5 HD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORT 5 HD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=988036&extension=ts&play_token=EXYstvlbfn
-#EXTINF:-1 tvg-id="993327" tvg-name="AR| STARZPLAY / AD SPORTS 1 FHD" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORTS 1 FHD
+#EXTINF:-1 tvg-id="993327" tvg-name="AR| STARZPLAY / AD SPORTS 1 FHD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORTS 1 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=993327&extension=ts&play_token=PYCdcTcms1
-#EXTINF:-1 tvg-id="993328" tvg-name="AR| STARZPLAY / AD SPORTS 2 FHD" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORTS 2 FHD
+#EXTINF:-1 tvg-id="993328" tvg-name="AR| STARZPLAY / AD SPORTS 2 FHD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORTS 2 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=993328&extension=ts&play_token=m9OftDp0cW
-#EXTINF:-1 tvg-id="993329" tvg-name="AR| STARZPLAY / AD SPORTS 3 FHD" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORTS 3 FHD
+#EXTINF:-1 tvg-id="993329" tvg-name="AR| STARZPLAY / AD SPORTS 3 FHD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / AD SPORTS 3 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=993329&extension=ts&play_token=1yeVXSZGmD
-#EXTINF:-1 tvg-id="994886" tvg-name="AR| STARZPLAY / CRLIFE 1 HD" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / CRLIFE 1 HD
+#EXTINF:-1 tvg-id="994886" tvg-name="AR| STARZPLAY / CRLIFE 1 HD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / CRLIFE 1 HD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=994886&extension=ts&play_token=utqRaXoA9F
-#EXTINF:-1 tvg-id="994887" tvg-name="AR| STARZPLAY / CRLIFE 2 HD" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / CRLIFE 2 HD
+#EXTINF:-1 tvg-id="994887" tvg-name="AR| STARZPLAY / CRLIFE 2 HD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="AR| STARZPLAY / AD SPORTS",AR| STARZPLAY / CRLIFE 2 HD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=994887&extension=ts&play_token=X1qvR9OxK6
-#EXTINF:-1 tvg-id="1272272" tvg-name="##### STARS PLAY 4K #####" group-title="AR| STARZ PLAY",##### STARS PLAY 4K #####
-http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1272272&extension=ts&play_token=fRJFqoIyYk
-
-
-#EXTINF:-1 tvg-id="1898978" tvg-name="AR| THMANYAH 1 FHD" group-title="BEE| THMANYAH",AR| THMANYAH 1 FHD
-http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1898978&extension=ts&play_token=iHUFDoEu9n
-#EXTINF:-1 tvg-id="1898976" tvg-name="AR| THMANYAH 1 HD" group-title="BEE| THMANYAH",AR| THMANYAH 1 HD
-http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1898976&extension=ts&play_token=pyihBeFVYL
-#EXTINF:-1 tvg-id="1898977" tvg-name="AR| THMANYAH 2 FHD" group-title="BEE| THMANYAH",AR| THMANYAH 2 FHD
-http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1898977&extension=ts&play_token=lBpZfQnuaM
-#EXTINF:-1 tvg-id="1898975" tvg-name="AR| THMANYAH 2 HD" group-title="BEE| THMANYAH",AR| THMANYAH 2 HD
-http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1898975&extension=ts&play_token=1wP79qEDvg
-#EXTINF:-1 tvg-id="1899053" tvg-name="AR| THMANYAH 3 FHD" group-title="BEE| THMANYAH",AR| THMANYAH 3 FHD
-http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1899053&extension=ts&play_token=tJWu4FfYL4
-#EXTINF:-1 tvg-id="1899054" tvg-name="AR| THMANYAH 3 HD" group-title="BEE| THMANYAH",AR| THMANYAH 3 HD
-http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1899054&extension=ts&play_token=vRaccLrMFO
-#EXTINF:-1 tvg-id="1907593" tvg-name="AR| THMANYAH MINASA 1" group-title="BEE| THMANYAH",AR| THMANYAH MINASA 1
-http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1907593&extension=ts&play_token=CWEoJKSz9v
-#EXTINF:-1 tvg-id="1907594" tvg-name="AR| THMANYAH MINASA 2" group-title="BEE| THMANYAH",AR| THMANYAH MINASA 2
-http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1907594&extension=ts&play_token=0RgwHVQXiI
-#EXTINF:-1 tvg-id="1907595" tvg-name="AR| THMANYAH MINASA 3" group-title="BEE| THMANYAH",AR| THMANYAH MINASA 3
-http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1907595&extension=ts&play_token=DnXhgLRmWB
-#EXTINF:-1 tvg-id="1806613" tvg-name="AR| AD SPORT 1" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT 1
+#EXTINF:-1 tvg-id="1806613" tvg-name="AR| AD SPORT 1" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT 1
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806613&extension=ts&play_token=zJg0dWXIcI
-#EXTINF:-1 tvg-id="1806612" tvg-name="AR| AD SPORT 2" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT 2
+#EXTINF:-1 tvg-id="1806612" tvg-name="AR| AD SPORT 2" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT 2
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806612&extension=ts&play_token=xK9s9w0cqG
-#EXTINF:-1 tvg-id="1806611" tvg-name="AR| AD SPORT SERIA 1 FHD" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT SERIA 1 FHD
+#EXTINF:-1 tvg-id="1806611" tvg-name="AR| AD SPORT SERIA 1 FHD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT SERIA 1 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806611&extension=ts&play_token=SfFWxzKIoH
-#EXTINF:-1 tvg-id="1806610" tvg-name="AR| AD SPORT SERIA 2 FHD" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT SERIA 2 FHD
+#EXTINF:-1 tvg-id="1806610" tvg-name="AR| AD SPORT SERIA 2 FHD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT SERIA 2 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806610&extension=ts&play_token=2KSGpqzPbW
-#EXTINF:-1 tvg-id="1806609" tvg-name="AR| AD SPORT SERIA 3 FHD" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT SERIA 3 FHD
+#EXTINF:-1 tvg-id="1806609" tvg-name="AR| AD SPORT SERIA 3 FHD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT SERIA 3 FHD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806609&extension=ts&play_token=jkdQ4KwDT6
-#EXTINF:-1 tvg-id="1806608" tvg-name="AR| AD SPORT SERIA 1 HD" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT SERIA 1 HD
+#EXTINF:-1 tvg-id="1806608" tvg-name="AR| AD SPORT SERIA 1 HD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT SERIA 1 HD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806608&extension=ts&play_token=nhpKtCw3yK
-#EXTINF:-1 tvg-id="1806607" tvg-name="AR| AD SPORT SERIA 2 HD" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT SERIA 2 HD
+#EXTINF:-1 tvg-id="1806607" tvg-name="AR| AD SPORT SERIA 2 HD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT SERIA 2 HD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806607&extension=ts&play_token=irLMkpxrSf
-#EXTINF:-1 tvg-id="1806606" tvg-name="AR| AD SPORT SERIA 3 HD" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT SERIA 3 HD
+#EXTINF:-1 tvg-id="1806606" tvg-name="AR| AD SPORT SERIA 3 HD" tvg-logo="https://3-pr.github.io/logos/star.JPG" group-title="BEE| STARZPLAY SPORTS",AR| AD SPORT SERIA 3 HD
 http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1806606&extension=ts&play_token=cFxBhCIwAA
+
+
+
+#EXTINF:-1 tvg-id="Thmanyah1FHD.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Thmanyah", Thmanyah 1 (FHD)
+http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1898978&extension=ts&play_token=iHUFDoEu9n
+
+#EXTINF:-1 tvg-id="Thmanyah1HD.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Thmanyah", Thmanyah 1 (HD)
+http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1898976&extension=ts&play_token=pyihBeFVYL
+
+#EXTINF:-1 tvg-id="Thmanyah2FHD.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Thmanyah", Thmanyah 2 (FHD)
+http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1898977&extension=ts&play_token=lBpZfQnuaM
+
+#EXTINF:-1 tvg-id="Thmanyah2HD.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Thmanyah", Thmanyah 2 (HD)
+http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1898975&extension=ts&play_token=1wP79qEDvg
+
+#EXTINF:-1 tvg-id="Thmanyah3FHD.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Thmanyah", Thmanyah 3 (FHD)
+http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1899053&extension=ts&play_token=tJWu4FfYL4
+
+#EXTINF:-1 tvg-id="Thmanyah3HD.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Thmanyah", Thmanyah 3 (HD)
+http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1899054&extension=ts&play_token=vRaccLrMFO
+
+#EXTINF:-1 tvg-id="ThmanyahMinasa1.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Thmanyah Minasa", Thmanyah Minasa 1
+http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1907593&extension=ts&play_token=CWEoJKSz9v
+
+#EXTINF:-1 tvg-id="ThmanyahMinasa2.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Thmanyah Minasa", Thmanyah Minasa 2
+http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1907594&extension=ts&play_token=0RgwHVQXiI
+
+#EXTINF:-1 tvg-id="ThmanyahMinasa3.sa" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" group-title="Thmanyah Minasa", Thmanyah Minasa 3
+http://line.iptvwings.com:80/play/live.php?mac=00:1A:79:46:18:44&stream=1907595&extension=ts&play_token=DnXhgLRmWB
 
 #EXTINF:-1 group-title="ALWAN" tvg-logo="https://up6.cc//2025//05//174640309104961.png" ,ALWAN 1
 http://stalker.klma2023.net:80/play/live.php?mac=00:1A:79:68:7A:2D&stream=1630675&extension=ts&play_token=IAqWldxOu8
