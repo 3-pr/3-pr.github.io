@@ -12,50 +12,7 @@ http://1789-181.123091763.it.com/live/982038_.m3u8
 
 
 
-#EXTINF:-1 tvg-id="beINSports1En.qa" tvg-name="|AR| BEIN SPORTS 1 FHD (50 FPS)" tvg-logo="https://i.imgur.com/OkeHSUT.png" group-title="الرياضية",|AR| BEIN SPORTS 1 
-#EXTVLCOPT:http-drm-scheme=clearkey
-#EXTVLCOPT:http-drm-license=Q2a-HDiu8G_4Bn10nWTr6g:1743551501
-http://tv.premiumplus.tv/play/live.php?mac=00:1a:79:C0:0D:F1&stream=1411383&extension=ts&play
 
-#EXTINF:-1 tvg-id="beINSports1En.qa" tvg-name="|AR| BEIN SPORTS 1 FHD (50 FPS)" tvg-logo="https://i.imgur.com/OkeHSUT.png" group-title="الرياضية",|AR| BEIN SPORTS 2
-#EXTVLCOPT:http-drm-scheme=clearkey
-#EXTVLCOPT:http-drm-license=9YKG6Dmk6L9RyIBGYKLZ4g:1743552776
-http://tv.premiumplus.tv/play/live.php?mac=00:1a:79:C0:0D:F1&stream=1411382&extension=ts&play
-
-#EXTINF:-1 tvg-id="beINSports1En.qa" tvg-name="|AR| BEIN SPORTS 1 FHD (50 FPS)" tvg-logo="https://i.imgur.com/OkeHSUT.png" group-title="الرياضية",|AR| BEIN SPORTS 3 
-#EXTVLCOPT:http-drm-scheme=clearkey
-#EXTVLCOPT:http-drm-license=9YKG6Dmk6L9RyIBGYKLZ4g:1743552776
-http://tv.premiumplus.tv/play/live.php?mac=00:1a:79:C0:0D:F1&stream=1411381&extension=ts&play
-
-#EXTINF:-1 tvg-id="beINSports1En.qa" tvg-name="|AR| BEIN SPORTS 1 FHD (50 FPS)" tvg-logo="https://i.imgur.com/OkeHSUT.png" group-title="الرياضية",|AR| BEIN SPORTS 4
-#EXTVLCOPT:http-drm-scheme=clearkey
-#EXTVLCOPT:http-drm-license=d58IvaVmCJNK0W6Sc1Z_TQ:1743553033
-http://tv.premiumplus.tv/play/live.php?mac=00:1a:79:C0:0D:F1&stream=1411380&extension=ts&play
-
-#EXTINF:-1 tvg-id="beINSports1En.qa" tvg-name="|AR| BEIN SPORTS 1 FHD (50 FPS)" tvg-logo="https://i.imgur.com/OkeHSUT.png" group-title="الرياضية",|AR| BEIN SPORTS 5
-#EXTVLCOPT:http-drm-scheme=clearkey
-#EXTVLCOPT:http-drm-license=AMM0TuegLPNCmtmEjR_QVw:1743552953
-http://tv.premiumplus.tv/play/live.php?mac=00:1a:79:C0:0D:F1&stream=1411379&extension=ts&play
-
-#EXTINF:-1 tvg-id="beINSports1En.qa" tvg-name="|AR| BEIN SPORTS 1 FHD (50 FPS)" tvg-logo="https://i.imgur.com/OkeHSUT.png" group-title="الرياضية",|AR| BEIN SPORTS 6
-#EXTVLCOPT:http-drm-scheme=clearkey
-#EXTVLCOPT:http-drm-license=0a7934dddc3136a6922584b96c3fd1e5:676e6d1dd00bfbe266003efaf0e3aa02
-http://tv.premiumplus.tv/play/live.php?mac=00:1a:79:C0:0D:F1&stream=1411378&extension=ts&play
-
-#EXTINF:-1 tvg-id="beINSports1En.qa" tvg-name="|AR| BEIN SPORTS 1 FHD (50 FPS)" tvg-logo="https://i.imgur.com/OkeHSUT.png" group-title="الرياضية",|AR| BEIN SPORTS 7
-#EXTVLCOPT:http-drm-scheme=clearkey
-#EXTVLCOPT:http-drm-license=0a7934dddc3136a6922584b96c3fd1e5:676e6d1dd00bfbe266003efaf0e3aa02
-http://tv.premiumplus.tv/play/live.php?mac=00:1a:79:C0:0D:F1&stream=1411377&extension=ts&play
-
-#EXTINF:-1 tvg-id="beINSports1En.qa" tvg-name="|AR| BEIN SPORTS 1 FHD (50 FPS)" tvg-logo="https://i.imgur.com/OkeHSUT.png" group-title="الرياضية",|AR| BEIN SPORTS 8
-#EXTVLCOPT:http-drm-scheme=clearkey
-#EXTVLCOPT:http-drm-license=0a7934dddc3136a6922584b96c3fd1e5:676e6d1dd00bfbe266003efaf0e3aa02
-http://tv.premiumplus.tv/play/live.php?mac=00:1a:79:C0:0D:F1&stream=1411376&extension=ts&play
-
-#EXTINF:-1 tvg-id="beINSports1En.qa" tvg-name="|AR| BEIN SPORTS 1 FHD (50 FPS)" tvg-logo="https://i.imgur.com/OkeHSUT.png" group-title="الرياضية",|AR| BEIN SPORTS 9 
-#EXTVLCOPT:http-drm-scheme=clearkey
-#EXTVLCOPT:http-drm-license=0a7934dddc3136a6922584b96c3fd1e5:676e6d1dd00bfbe266003efaf0e3aa02
-http://tv.premiumplus.tv/play/live.php?mac=00:1a:79:C0:0D:F1&stream=1411375&extension=ts&play
 
 
 #EXTINF:-1 tvg-id="Alkass1.qa" tvg-logo="https://3-pr.github.io/logos/al.jpeg" group-title="Sports", Al Kass 1 (HD)
