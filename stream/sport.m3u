@@ -1,23 +1,29 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 1
+#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 1 soon
 http://fuego-iptv.net:80/play/live.php?mac=00:1A:79:CB:46:ED&stream=1549874&extension=ts&play_token=cRbYcECF02
-#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 2
+#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 2 soon
 http://fuego-iptv.net:80/play/live.php?mac=00:1A:79:CB:46:ED&stream=1549875&extension=ts&play_token=NNU1ppbsDh
-#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 3
+#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 3 soon
 http://fuego-iptv.net:80/play/live.php?mac=00:1A:79:CB:46:ED&stream=1597571&extension=ts&play_token=NIgPwoaa7Y
 
 
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 1
-http://d7441a93.akadatel.com/iptv/NSEXWXAF56T6M4HP8WGLWQWK/6123/index.m3u8
+http://wolvestv.net:8880/80746551156356/22314879512479/77
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 2
-http://d7441a93.akadatel.com/iptv/NSEXWXAF56T6M4HP8WGLWQWK/6124/index.m3u8
+http://wolvestv.net:8880/80746551156356/22314879512479/76
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 3
-http://d7441a93.akadatel.com/iptv/NSEXWXAF56T6M4HP8WGLWQWK/6124/index.m3u8
+http://wolvestv.net:8880/80746551156356/22314879512479/75
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 4
-http://d7441a93.akadatel.com/iptv/NSEXWXAF56T6M4HP8WGLWQWK/6125/index.m3u8
+http://wolvestv.net:8880/80746551156356/22314879512479/84
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 5
-http://d7441a93.akadatel.com/iptv/NSEXWXAF56T6M4HP8WGLWQWK/6126/index.m3u8
+http://wolvestv.net:8880/80746551156356/22314879512479/125549
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 6
-http://d7441a93.akadatel.com/iptv/NSEXWXAF56T6M4HP8WGLWQWK/6127/index.m3u8
+http://wolvestv.net:8880/80746551156356/22314879512479/82
+#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 7
+http://wolvestv.net:8880/80746551156356/22314879512479/81
+
+#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 8
+http://wolvestv.net:8880/80746551156356/22314879512479/79
+
