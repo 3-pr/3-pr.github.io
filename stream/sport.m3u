@@ -1,7 +1,7 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 1 soon
-http://fuego-iptv.net:80/play/live.php?mac=00:1A:79:CB:46:ED&stream=1549874&extension=ts&play_token=cRbYcECF02
+#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 1 
+http://191.101.8.12:80/live/90337864331136/90337864331136/413728.ts?token=TjQ3Z3c0YkJlNENtNXhI
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 2 soon
 http://fuego-iptv.net:80/play/live.php?mac=00:1A:79:CB:46:ED&stream=1549875&extension=ts&play_token=NNU1ppbsDh
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 3 soon
