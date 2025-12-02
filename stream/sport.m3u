@@ -10,7 +10,7 @@ http://fuego-iptv.net:80/play/live.php?mac=00:1A:79:CB:46:ED&stream=1597571&exte
 
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 1
-http://wolvestv.net:8880/80746551156356/22314879512479/77
+https://sportina.cc/BEIN-1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 2
 http://wolvestv.net:8880/80746551156356/22314879512479/76
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 3
