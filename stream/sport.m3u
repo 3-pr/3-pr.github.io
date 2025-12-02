@@ -11,10 +11,6 @@ http://fuego-iptv.net:80/play/live.php?mac=00:1A:79:CB:46:ED&stream=1597571&exte
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 1
 https://sportina.cc/BEIN-1/tracks-v1a1/mono.m3u8
-Host: sportina.cc
-X-Playback-Session-Id: 1ECB21CF-9499-44E7-8D26-B7495D4AAC7C
-Accept: */*
-User-Agent: AppleCoreMedia/1.0.0.22G100 (iPhone; U; CPU OS 18_6_2 like Mac OS X; en_us)
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 2
 http://wolvestv.net:8880/80746551156356/22314879512479/76
