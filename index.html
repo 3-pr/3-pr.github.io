@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YASSER ALHARBI</title>
+  <meta name="description" content="Yasser Alharbi – Bio & Links">
+  <meta property="og:title" content="YASSER ALHARBI">
+  <meta property="og:description" content="Yasser Alharbi – Bio & Links">
+  <meta property="og:image" content="img/profile.jpg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a0a0c">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/profile.jpg">
+</head>
+<body>
+
+  <!-- Language Toggle -->
+  <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+    <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"/>
+      <path d="M2 12h20"/>
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z"/>
+    </svg>
+    <span id="langLabel">EN</span>
+  </button>
+
+  <div class="container">
+
+    <!-- Profile -->
+    <div class="profile-section fade-in">
+      <div class="profile-image-wrapper">
+        <img src="img/profile.jpg" alt="Yasser Alharbi" class="profile-image">
+      </div>
+      <h1 class="profile-name" data-i18n="name">ياسر الحربي</h1>
+      <p class="profile-bio" data-i18n="bio">مبرمج ومهتم بالتقنية</p>
+    </div>
+
+    <!-- Links -->
+    <div class="links-section">
+
+      <!-- Twitter / X -->
+      <a href="https://x.com/i0zzw" target="_blank" rel="noopener noreferrer" class="link-card">
+        <div class="link-card-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+        </div>
+        <div class="link-card-content">
+          <span class="link-card-title" data-i18n="twitter_title">تويتر / إكس</span>
+          <span class="link-card-subtitle">@i0zzw</span>
+        </div>
+        <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+
+      <!-- Support / Creators -->
+      <a href="https://creators.sa/i" target="_blank" rel="noopener noreferrer" class="link-card">
+        <div class="link-card-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+          </svg>
+        </div>
+        <div class="link-card-content">
+          <span class="link-card-title" data-i18n="support_title">دعم مادي</span>
+          <span class="link-card-subtitle">creators.sa</span>
+        </div>
+        <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer fade-in">
+      <p data-i18n="footer">© 2026 YASSER ALHARBI</p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
