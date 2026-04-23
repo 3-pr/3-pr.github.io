@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Yasser Alharbi</title>
+  <meta name="description" content="Privacy Policy for Chrome Extensions by Yasser Alharbi">
+  <meta name="theme-color" content="#0a0a0c">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" href="../img/profile.jpg">
+  <style>
+    /* Specific styles for the privacy page text */
+    .privacy-container {
+      max-width: 600px; /* Slightly wider for reading text */
+      text-align: right;
+      padding-top: 60px;
+    }
+    
+    [dir="ltr"] .privacy-container {
+      text-align: left;
+    }
+
+    .privacy-container h1 {
+      font-family: 'Thmanyah Serif Display', 'Thmanyah Sans', serif;
+      font-size: 28px;
+      color: var(--text-primary);
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .privacy-content {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius);
+      padding: 30px;
+      margin-bottom: 24px;
+    }
+
+    .privacy-content h2 {
+      font-size: 18px;
+      color: var(--accent);
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+
+    .privacy-content p {
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+    }
+
+    .privacy-content p:last-child {
+      margin-bottom: 0;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      margin-bottom: 30px;
+      transition: var(--transition);
+    }
+
+    .back-link:hover {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Language Toggle -->
+  <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+    <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"/>
+      <path d="M2 12h20"/>
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z"/>
+    </svg>
+    <span id="langLabel">EN</span>
+  </button>
+
+  <div class="container privacy-container fade-in">
+    
+    <a href="../index.html" class="back-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 12H5M12 19l-7-7 7-7" class="ltr-arrow" style="display:none;"/>
+        <path d="M5 12h14M12 5l7 7-7 7" class="rtl-arrow"/>
+      </svg>
+      <span id="btnBack">العودة للرئيسية</span>
+    </a>
+
+    <!-- ARABIC SECTION -->
+    <div id="contentAR">
+      <h1>سياسة الخصوصية لإضافات المتصفح</h1>
+      
+      <div class="privacy-content">
+        <h2>جمع البيانات والاستخدام</h2>
+        <p>نحن نحترم خصوصيتك بالكامل. <strong>لا يتم جمع أو حفظ أو تتبع أي بيانات شخصية</strong> أو بيانات التصفح أو أي معلومات حساسة عند استخدامك لأي من إضافات المتصفح الخاصة بنا، إلا إذا تم التنويه عن ذلك بشكل صريح وواضح في صفحة الإضافة نفسها.</p>
+        <p>تعمل الإضافات محلياً على جهازك ومباشرة داخل المتصفح لإتمام الوظيفة المطلوبة فقط.</p>
+      </div>
+
+      <div class="privacy-content">
+        <h2>تغييرات في سياسة الخصوصية</h2>
+        <p>في حال تمت إضافة أي ميزات تتطلب التعامل مع البيانات مستقبلاً، سيتم تحديث هذه الصفحة وإبلاغ المستخدمين عبر وصف الإضافة في المتجر.</p>
+      </div>
+    </div>
+
+    <!-- ENGLISH SECTION (Hidden by default) -->
+    <div id="contentEN" style="display: none;">
+      <h1>Browser Extensions Privacy Policy</h1>
+      
+      <div class="privacy-content">
+        <h2>Data Collection and Usage</h2>
+        <p>We fully respect your privacy. <strong>No personal data, browsing history, or sensitive information is collected, stored, or tracked</strong> when you use any of our browser extensions, unless explicitly stated in the extension's description on the store.</p>
+        <p>The extensions run locally on your device and directly within your browser solely to perform their intended function.</p>
+      </div>
+
+      <div class="privacy-content">
+        <h2>Changes to Privacy Policy</h2>
+        <p>If any future features require data handling, this policy will be updated, and users will be notified via the extension's store description.</p>
+      </div>
+    </div>
+
+    <div class="footer fade-in" style="margin-top: 30px;">
+      <p>© 2026 YASSER ALHARBI</p>
+    </div>
+
+  </div>
+
+  <script>
+    // Simple Language Toggle specifically for this page
+    const langToggle = document.getElementById('langToggle');
+    const langLabel = document.getElementById('langLabel');
+    const contentAR = document.getElementById('contentAR');
+    const contentEN = document.getElementById('contentEN');
+    const btnBack = document.getElementById('btnBack');
+    const htmlElement = document.documentElement;
+    
+    // Arrows for back button
+    const rtlArrow = document.querySelector('.rtl-arrow');
+    const ltrArrow = document.querySelector('.ltr-arrow');
+
+    langToggle.addEventListener('click', () => {
+      const isArabic = htmlElement.getAttribute('lang') === 'ar';
+      
+      if (isArabic) {
+        // Switch to EN
+        htmlElement.setAttribute('lang', 'en');
+        htmlElement.setAttribute('dir', 'ltr');
+        langLabel.textContent = 'AR';
+        contentAR.style.display = 'none';
+        contentEN.style.display = 'block';
+        btnBack.textContent = 'Back to Home';
+        rtlArrow.style.display = 'none';
+        ltrArrow.style.display = 'block';
+      } else {
+        // Switch to AR
+        htmlElement.setAttribute('lang', 'ar');
+        htmlElement.setAttribute('dir', 'rtl');
+        langLabel.textContent = 'EN';
+        contentAR.style.display = 'block';
+        contentEN.style.display = 'none';
+        btnBack.textContent = 'العودة للرئيسية';
+        rtlArrow.style.display = 'block';
+        ltrArrow.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
