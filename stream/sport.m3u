@@ -1,34 +1,32 @@
 #EXTM3U
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 1 
-http://191.101.8.12:80/live/90337864331136/90337864331136/413728.ts?token=TjQ3Z3c0YkJlNENtNXhI
-#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 2 soon
-http://fuego-iptv.net:80/play/live.php?mac=00:1A:79:CB:46:ED&stream=1549875&extension=ts&play_token=NNU1ppbsDh
-#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 3 soon
-http://fuego-iptv.net:80/play/live.php?mac=00:1A:79:CB:46:ED&stream=1597571&extension=ts&play_token=NIgPwoaa7Y
+https://dflive.app.tc/20.m3u8
+#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 2 
+https://dflive.app.tc/60.m3u8
+#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 3 
+https://dflive.app.tc/61.m3u8
 
 
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 1
-https://sportina.cc/BEIN-1/tracks-v1a1/mono.m3u8
-Host: sportina.cc
-X-Playback-Session-Id: 1ECB21CF-9499-44E7-8D26-B7495D4AAC7C
-Accept: */*
-User-Agent: AppleCoreMedia/1.0.0.22G100 (iPhone; U; CPU OS 18_6_2 like Mac OS X; en_us)
+http://baskhd2.ddns.net:1935/live/stvsport/chunklist.m3u8
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 2
-http://wolvestv.net:8880/80746551156356/22314879512479/76
+http://tv.startseven.tn:2052/live/t5fus4VRzdAW/RsHeAhYzC9sn/13081.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 3
-http://wolvestv.net:8880/80746551156356/22314879512479/75
+http://tv.startseven.tn:2052/live/t5fus4VRzdAW/RsHeAhYzC9sn/49370.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 4
-http://wolvestv.net:8880/80746551156356/22314879512479/84
+http://tv.startseven.tn:2052/live/t5fus4VRzdAW/RsHeAhYzC9sn/20736.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 5
-http://wolvestv.net:8880/80746551156356/22314879512479/125549
+http://tv.startseven.tn:2052/live/t5fus4VRzdAW/RsHeAhYzC9sn/48222.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 6
-http://wolvestv.net:8880/80746551156356/22314879512479/82
+http://tv.startseven.tn:2052/live/t5fus4VRzdAW/RsHeAhYzC9sn/48221.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 7
-http://wolvestv.net:8880/80746551156356/22314879512479/81
+http://tv.startseven.tn:2052/live/t5fus4VRzdAW/RsHeAhYzC9sn/48220.ts
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 8
-http://wolvestv.net:8880/80746551156356/22314879512479/79
+http://arox.cc/live/1100817324546248/1100817324546248/183170.ts
 
+#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 9
+http://arox.cc/live/1100817324546248/1100817324546248/183171.ts
