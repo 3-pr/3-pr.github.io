@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شرح AIOStreams - ياسر الحربي</title>
+  <meta name="description" content="طريقة إعداد إضافة AIOStreams | ElfHosted على Stremio">
+  <meta name="theme-color" content="#0a0a0c">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" href="../img/profile.jpg">
+  <style>
+    .tutorial-container {
+      max-width: 700px;
+      text-align: right;
+      padding-top: 60px;
+    }
+    
+    .tutorial-content {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius);
+      padding: 30px;
+      margin-bottom: 24px;
+    }
+
+    .tutorial-content h1 {
+      font-family: 'Thmanyah Serif Display', 'Thmanyah Sans', serif;
+      font-size: 24px;
+      color: var(--text-primary);
+      margin-bottom: 20px;
+    }
+
+    .tutorial-content h2 {
+      font-size: 18px;
+      color: var(--accent);
+      margin-top: 30px;
+      margin-bottom: 12px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border-card);
+      padding-bottom: 8px;
+    }
+
+    .tutorial-content p {
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+    }
+
+    .tutorial-content img {
+      width: 100%;
+      border-radius: 12px;
+      margin: 20px 0;
+      border: 1px solid var(--border-card);
+    }
+
+    .tutorial-content ul {
+      margin-bottom: 16px;
+      padding-right: 20px;
+    }
+
+    .tutorial-content li {
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      margin-bottom: 30px;
+      transition: var(--transition);
+    }
+
+    .back-link:hover {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container tutorial-container fade-in">
+    
+    <a href="../index.html" class="back-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+      <span>العودة للرئيسية</span>
+    </a>
+
+    <div class="tutorial-content">
+      <h1>طريقة إعداد إضافة AIOStreams | ElfHosted على stremio 📺</h1>
+      <p>في هذا الشرح بنتعرف على طريقة إعداد إضافة AIOStreams الشاملة لتجربة مشاهدة متكاملة.</p>
+      <img src="../img/tutorials/aiostreams-elfhosted/1.jpg" alt="AIOStreams Tutorial">
+
+      <h2>1 | Debrid service</h2>
+      <p>هذه الصفحة مخصصة لمستخدمي Debrid أو المشتركين في خدمات مدفوعة. إذا كنت مشتركاً، اختر نوع الخدمة التي تستخدمها، واضغط على أيقونة الإعدادات وألصق الـ API الخاص بك، ثم فعل الخدمة. إذا لم تكن مشتركاً، يمكنك الضغط على next.</p>
+      <img src="../img/tutorials/aiostreams-elfhosted/2.jpg" alt="Debrid Setup">
+
+      <h2>2 | Addons</h2>
+      <p>هنا صفحة الإضافات. لتثبيت الأدوات، توجه لقسم marketplace. إليك أشهر أدوات المشاهدة المتوفرة:</p>
+      <ul>
+        <li>MediaFusion (مجاناً / مدفوع)</li>
+        <li>Peerflix (مجاناً / مدفوع)</li>
+        <li>TorrentsDB (مجاناً / مدفوع)</li>
+        <li>Comet (مجاناً / مدفوع)</li>
+        <li>Jackettio (مدفوع)</li>
+        <li>Orion (مجاناً مؤقتاً / مدفوع)</li>
+        <li>DMM CAST (مدفوع)</li>
+      </ul>
+      <img src="../img/tutorials/aiostreams-elfhosted/3.jpg" alt="Marketplace Addons">
+
+      <p>إذا كنت ترغب في الإضافات المجانية فقط، اختر الأدوات المجانية واضغط على configure ثم install بدون أي تعديلات إضافية.</p>
+      <img src="../img/tutorials/aiostreams-elfhosted/4.jpg" alt="Free Addons Setup">
+
+      <p>أما إذا كنت مستخدم Debrid، فتوجه لكل خدمة واختر service ثم الخدمة التي تشترك فيها.</p>
+      <img src="../img/tutorials/aiostreams-elfhosted/5.jpg" alt="Debrid Addon Config">
+
+      <h2>3 | أدوات الترجمة</h2>
+      <p>توفر الإضافة خيارات ترجمة متعددة:</p>
+      <ul>
+        <li>opensubtitles</li>
+        <li>subsource</li>
+        <li>SubDL (يتطلب API من موقعهم)</li>
+      </ul>
+      <p>ملاحظة: بعض الأدوات تجبرك على إضافة اللغة، لا تنسَ اختيار العربية فقط.</p>
+      <img src="../img/tutorials/aiostreams-elfhosted/6.jpg" alt="Subtitles Setup 1">
+      <img src="../img/tutorials/aiostreams-elfhosted/7.jpg" alt="Subtitles Setup 2">
+
+      <h2>4 | الحفظ والتثبيت</h2>
+      <p>بعد الانتهاء من جميع الإعدادات، انتقل إلى أسفل الصفحة واضغط على Save & install. ستحتاج لوضع كلمة مرور لحفظ إعداداتك، ثم سيظهر لك خيار install للبدء في استخدام الإضافة.</p>
+      <img src="../img/tutorials/aiostreams-elfhosted/8.jpg" alt="Save and Install">
+
+      <p>رابط الأداة: <a href="https://aiostreams.elfhosted.com/stremio/configure" target="_blank" style="color: var(--accent);">aiostreams.elfhosted.com</a></p>
+    </div>
+
+    <div class="footer fade-in">
+      <p>© 2026 YASSER ALHARBI</p>
+    </div>
+
+  </div>
+
+</body>
+</html>

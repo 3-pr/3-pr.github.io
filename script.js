@@ -9,6 +9,7 @@ const translations = {
     langLabel: 'EN',
     tutorials_title: 'شروحات',
     real_debrid_tutorial: 'شرح Real-Debrid و Stremio',
+    aiostreams_tutorial: 'شرح إضافة AIOStreams',
   },
   en: {
     name: 'YASSER ALHARBI',
@@ -19,6 +20,7 @@ const translations = {
     langLabel: 'ع',
     tutorials_title: 'Tutorials',
     real_debrid_tutorial: 'Real-Debrid & Stremio Guide',
+    aiostreams_tutorial: 'AIOStreams Addon Guide',
   },
 };
 
