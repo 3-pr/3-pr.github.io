@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شرح Real-Debrid - ياسر الحربي</title>
+  <meta name="description" content="طريقة الاشتراك في Real-Debrid وربطه مع Stremio">
+  <meta name="theme-color" content="#0a0a0c">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" href="../img/profile.jpg">
+  <style>
+    .tutorial-container {
+      max-width: 700px;
+      text-align: right;
+      padding-top: 60px;
+    }
+    
+    .tutorial-content {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius);
+      padding: 30px;
+      margin-bottom: 24px;
+    }
+
+    .tutorial-content h1 {
+      font-family: 'Thmanyah Serif Display', 'Thmanyah Sans', serif;
+      font-size: 24px;
+      color: var(--text-primary);
+      margin-bottom: 20px;
+    }
+
+    .tutorial-content h2 {
+      font-size: 18px;
+      color: var(--accent);
+      margin-top: 30px;
+      margin-bottom: 12px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border-card);
+      padding-bottom: 8px;
+    }
+
+    .tutorial-content p {
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+    }
+
+    .tutorial-content img {
+      width: 100%;
+      border-radius: 12px;
+      margin: 20px 0;
+      border: 1px solid var(--border-card);
+    }
+
+    .tutorial-content ul {
+      margin-bottom: 16px;
+      padding-right: 20px;
+    }
+
+    .tutorial-content li {
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      margin-bottom: 30px;
+      transition: var(--transition);
+    }
+
+    .back-link:hover {
+      color: var(--accent);
+    }
+
+    .price-tag {
+      display: inline-block;
+      background: rgba(124, 77, 255, 0.1);
+      color: var(--accent);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container tutorial-container fade-in">
+    
+    <a href="../index.html" class="back-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+      <span>العودة للرئيسية</span>
+    </a>
+
+    <div class="tutorial-content">
+      <h1>طريقة الاشتراك في Real-Debrid وربطه مع Stremio 📺</h1>
+      <p>في هذا الشرح بنتكلم عن اشتراك Debrid وكيف تتابع على أعلى جودة بسيرفرك الخاص على Stremio.</p>
+      <img src="../img/tutorials/real-debrid/1.jpg" alt="Real-Debrid Tutorial">
+
+      <h2>1 | وش هو خدمة Debrid؟</h2>
+      <p>خدمة تخليّك تحمل أو تشاهد ملفات من مواقع رفع مدفوعة، بسرعة عالية ومن غير قيود، كأنك مشترك فيها كلها وتتابع بسرعه عاليه حتى ولو كان النت عندك ماهو سريع ذيك السرعة.</p>
+
+      <h2>2 | كيف طريقة الاشتراك؟</h2>
+      <p>تشترك عن طريق Real-Debrid من هذا الرابط:</p>
+      <p><a href="http://real-debrid.com/?id=14331648" target="_blank" style="color: var(--accent);">real-debrid.com</a></p>
+      
+      <p><strong>الأسعار:</strong></p>
+      <ul>
+        <li><span class="price-tag">15 يوم = 12 ريال</span></li>
+        <li><span class="price-tag">30 يوم = 17 ريال</span></li>
+        <li><span class="price-tag">90 يوم = 40 ريال</span></li>
+        <li><span class="price-tag">180 يوم = 70 ريال</span></li>
+      </ul>
+      <img src="../img/tutorials/real-debrid/2.jpg" alt="Pricing">
+
+      <h2>3 | طريقة الدفع</h2>
+      <p>تروح إلى خيار "عضوية إمتياز" مثل ماهو واضح عندكم بعد ماتختارون الباقه تضغطون على "أشترك" وتضغطون على علامة الصح وبعدها Credit Card.</p>
+      <p>بعدها بتضيفون اسمكم ورقم جوالكم وبطاقتكم. (يمكن الدفع عن طريق بطاقات مدى أو فيزا مثل D3360 bank).</p>
+      <img src="../img/tutorials/real-debrid/3.jpg" alt="Payment Method 1">
+      <img src="../img/tutorials/real-debrid/4.jpg" alt="Payment Method 2">
+      <img src="../img/tutorials/real-debrid/5.jpg" alt="Payment Method 3">
+
+      <h2>4 | طريقة الربط</h2>
+      <p>بعد ماتدفعون تتوجهون إلى صفحة My device وبيجيكم Api private Token.</p>
+      <p>بتنسخ الكود كامل بعدها تتجه إلى الأداة اللي بتربط فيها حسابك.</p>
+      <img src="../img/tutorials/real-debrid/6.jpg" alt="API Token">
+
+      <h2>5 | أداة Torrentio</h2>
+      <p>في الشرح بستخدم أضافة Torrentio:</p>
+      <p><a href="https://torrentio.strem.fun/configure" target="_blank" style="color: var(--accent);">torrentio.strem.fun/configure</a></p>
+      <p>مثل ما انتم شايفين هذي صفحة الأداة تروحون للكلمة الأخيرة Debrid provider بعدها Real-Debrid وتلصقون الكود.</p>
+      <img src="../img/tutorials/real-debrid/7.jpg" alt="Torrentio Config 1">
+      <img src="../img/tutorials/real-debrid/8.jpg" alt="Torrentio Config 2">
+
+      <p>والآن تقدرون تتابعون بأعلى سرعة وبأفضل تجربة ممكنة 🍿</p>
+      <img src="../img/tutorials/real-debrid/9.jpg" alt="Enjoy Watching">
+    </div>
+
+    <div class="footer fade-in">
+      <p>© 2026 YASSER ALHARBI</p>
+    </div>
+
+  </div>
+
+</body>
+</html>

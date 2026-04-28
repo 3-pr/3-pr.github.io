@@ -397,3 +397,22 @@ body::before {
     padding: 64px 24px 80px;
   }
 }
+
+/* ===== Sections ===== */
+.section-title {
+  font-family: 'Thmanyah Serif Display', serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+  opacity: 0.8;
+  width: 100%;
+  padding-right: 4px;
+}
+
+[dir="ltr"] .section-title {
+  padding-right: 0;
+  padding-left: 4px;
+}

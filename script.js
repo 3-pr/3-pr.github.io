@@ -7,6 +7,8 @@ const translations = {
     support_title: 'دعم مادي',
     footer: '© 2026 YASSER ALHARBI',
     langLabel: 'EN',
+    tutorials_title: 'شروحات',
+    real_debrid_tutorial: 'شرح Real-Debrid و Stremio',
   },
   en: {
     name: 'YASSER ALHARBI',
@@ -15,6 +17,8 @@ const translations = {
     support_title: 'Support Me',
     footer: '© 2026 YASSER ALHARBI',
     langLabel: 'ع',
+    tutorials_title: 'Tutorials',
+    real_debrid_tutorial: 'Real-Debrid & Stremio Guide',
   },
 };
 
