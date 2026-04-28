@@ -10,6 +10,11 @@ const translations = {
     tutorials_title: 'شروحات',
     real_debrid_tutorial: 'شرح Real-Debrid و Stremio',
     aiostreams_tutorial: 'شرح إضافة AIOStreams',
+    subtitles_tutorial: 'حل مشاكل الترجمة',
+    posters_tutorial: 'تعريب البوسترات',
+    youtube_tutorial: 'إضافة اليوتيوب',
+    comet_tutorial: 'شرح إضافة Comet',
+    lg_tv_tutorial: 'شرح شاشات LG',
   },
   en: {
     name: 'YASSER ALHARBI',
@@ -21,6 +26,11 @@ const translations = {
     tutorials_title: 'Tutorials',
     real_debrid_tutorial: 'Real-Debrid & Stremio Guide',
     aiostreams_tutorial: 'AIOStreams Addon Guide',
+    subtitles_tutorial: 'Subtitles & Sync Guide',
+    posters_tutorial: 'Arabic Posters Guide',
+    youtube_tutorial: 'YouTube Addon Guide',
+    comet_tutorial: 'Comet Addon Guide',
+    lg_tv_tutorial: 'LG TV Stremio Setup',
   },
 };
 
