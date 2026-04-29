@@ -126,6 +126,33 @@
       </div>
 
       <div class="privacy-content">
+        <h2>إضافة LetterNuvio</h2>
+        <p>تنطبق التفاصيل التالية خصيصاً على إضافة <strong>LetterNuvio</strong>:</p>
+        
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">1. جمع البيانات</h3>
+          <p>• <strong>بيانات الاعتماد:</strong> مفتاح المصادقة (JWT) الخاص بحساب Nuvio (عند تسجيل الدخول عبر الإضافة).</p>
+          <p>• <strong>بيانات المحتوى:</strong> معلومات الفيلم أو المسلسل (العنوان، السنة، معرف IMDb/TMDB، ورابط الملصق) من صفحة Letterboxd الحالية.</p>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">2. معالجة البيانات</h3>
+          <p>• استخدام مفتاح المصادقة للتواصل مع واجهة برمجة تطبيقات Nuvio (Supabase) نيابة عنك.</p>
+          <p>• معالجة بيانات الفيلم لتنسيقها وإرسالها إلى مكتبتك في Nuvio عند النقر على زر "إضافة للمكتبة".</p>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">3. تخزين البيانات</h3>
+          <p>• يتم تخزين مفتاح المصادقة <strong>محلياً فقط</strong> على جهازك (chrome.storage.local). لا نقوم بتخزين أي من بياناتك على خوادم خاصة بنا.</p>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">4. مشاركة البيانات</h3>
+          <p>• تتم مشاركة البيانات مع <strong>الخادم الرسمي لـ Nuvio</strong> فقط عند طلبك إضافة محتوى إلى مكتبتك.</p>
+        </div>
+      </div>
+
+      <div class="privacy-content">
         <h2>إضافات أخرى</h2>
         <p>تعتبر هذه الصفحة مرجعاً عاماً لجميع الإضافات الخاصة بنا. سيتم ذكر سياسة الخصوصية والتعامل مع البيانات الخاصة بكل إضافة جديدة يتم إصدارها في أقسام مخصصة في هذه الصفحة.</p>
       </div>
@@ -164,6 +191,33 @@
         <div style="margin-top: 20px;">
           <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">4. Data Sharing</h3>
           <p>• Your data is shared with <strong>Stremio's official API</strong> (api.strem.io) only when you request to add content to your library.</p>
+        </div>
+      </div>
+
+      <div class="privacy-content">
+        <h2>LetterNuvio Extension</h2>
+        <p>The following details apply specifically to the <strong>LetterNuvio</strong> extension:</p>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">1. Data Collection</h3>
+          <p>• <strong>Credentials:</strong> Your Nuvio authentication token (JWT) (collected when you sign in via the extension).</p>
+          <p>• <strong>Content Data:</strong> Movie or TV show metadata (title, year, IMDb/TMDB ID, and poster URL) from the Letterboxd page.</p>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">2. Data Processing</h3>
+          <p>• Using the authentication key to communicate with Nuvio's API (Supabase) on your behalf.</p>
+          <p>• Formatting and sending film metadata to your Nuvio library when you click the "Add to Library" button.</p>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">3. Data Storage</h3>
+          <p>• Your authentication key is stored <strong>only locally</strong> on your device (chrome.storage.local). We never store any of your data on our own servers.</p>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">4. Data Sharing</h3>
+          <p>• Your data is shared with <strong>Nuvio's official backend</strong> only when you request to add content to your library.</p>
         </div>
       </div>
 
