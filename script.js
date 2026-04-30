@@ -15,6 +15,13 @@ const translations = {
     youtube_tutorial: 'إضافة اليوتيوب',
     comet_tutorial: 'شرح إضافة Comet',
     lg_tv_tutorial: 'شرح شاشات LG',
+    works_title: 'أعمالي',
+    letterstremio_title: 'LetterStremio',
+    letterstremio_desc: 'إضافة تتيح لك إضافة زر "مشاهدة على Stremio" في موقع Letterboxd.',
+    letternuvio_title: 'LetterNuvio',
+    letternuvio_desc: 'مزامنة مكتبة Letterboxd مع تطبيق Nuvio.',
+    privacy_title: 'سياسة الخصوصية',
+    privacy_desc: 'اقرأ التزامنا بحماية بياناتك وخصوصيتك.',
   },
   en: {
     name: 'YASSER ALHARBI',
@@ -31,6 +38,13 @@ const translations = {
     youtube_tutorial: 'YouTube Addon Guide',
     comet_tutorial: 'Comet Addon Guide',
     lg_tv_tutorial: 'LG TV Stremio Setup',
+    works_title: 'My Projects',
+    letterstremio_title: 'LetterStremio',
+    letterstremio_desc: 'Adds a "Watch on Stremio" button to Letterboxd pages.',
+    letternuvio_title: 'LetterNuvio',
+    letternuvio_desc: 'Sync your Letterboxd library with Nuvio app.',
+    privacy_title: 'Privacy Policy',
+    privacy_desc: 'Read our commitment to your data security and privacy.',
   },
 };
 

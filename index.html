@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +14,16 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="img/profile.jpg">
 </head>
+
 <body>
 
   <!-- Language Toggle -->
   <button class="lang-toggle" id="langToggle" aria-label="Switch language">
-    <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="12" cy="12" r="10"/>
-      <path d="M2 12h20"/>
-      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z"/>
+    <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+      stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10" />
+      <path d="M2 12h20" />
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z" />
     </svg>
     <span id="langLabel">EN</span>
   </button>
@@ -43,34 +46,61 @@
       <a href="https://x.com/i0zzw" target="_blank" rel="noopener noreferrer" class="link-card">
         <div class="link-card-icon">
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            <path
+              d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
           </svg>
         </div>
         <div class="link-card-content">
           <span class="link-card-title" data-i18n="twitter_title">تويتر / إكس</span>
           <span class="link-card-subtitle">@i0zzw</span>
         </div>
-        <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M5 12h14M12 5l7 7-7 7"/>
+        <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7" />
         </svg>
       </a>
 
       <!-- Support / Creators -->
-      <a href="https://creators.sa/i" target="_blank" rel="noopener noreferrer" class="link-card">
+      <a href="https://creators.sa/i" target="_blank" rel="noopener noreferrer" class="link-card featured">
         <div class="link-card-icon">
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            <path
+              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
           </svg>
         </div>
         <div class="link-card-content">
           <span class="link-card-title" data-i18n="support_title">دعم مادي</span>
           <span class="link-card-subtitle">creators.sa</span>
         </div>
-        <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M5 12h14M12 5l7 7-7 7"/>
+        <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7" />
         </svg>
       </a>
 
+    </div>
+
+    <!-- My Works -->
+    <div class="section-container fade-in" style="margin-top: 32px; width: 100%;">
+      <h2 class="section-title" data-i18n="works_title">أعمالي</h2>
+      <div class="links-section" style="margin-top: 12px;">
+        <!-- LetterStremio -->
+        <a href="https://chromewebstore.google.com/detail/gipoaolhchfjmjiemofgoghhjfjpclnj?utm_source=item-share-cb"
+          target="_blank" rel="noopener noreferrer" class="link-card">
+          <div class="link-card-icon">
+            <img src="logos/letterstremio.png" alt="LetterStremio" style="width: 24px; height: 24px; border-radius: 6px;">
+          </div>
+          <div class="link-card-content">
+            <span class="link-card-title" data-i18n="letterstremio_title">LetterStremio</span>
+            <span class="link-card-subtitle" data-i18n="letterstremio_desc">Adds a "Watch on Stremio" button to
+              Letterboxd pages.</span>
+          </div>
+          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
     </div>
 
     <!-- Tutorials -->
@@ -79,122 +109,157 @@
       <div class="links-section" style="margin-top: 12px;">
         <a href="tutorials/real-debrid.html" class="link-card">
           <div class="link-card-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
-              <path d="M8 7h6"/>
-              <path d="M8 11h8"/>
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z" />
+              <path d="M8 7h6" />
+              <path d="M8 11h8" />
             </svg>
           </div>
           <div class="link-card-content">
             <span class="link-card-title" data-i18n="real_debrid_tutorial">شرح Real-Debrid و Stremio</span>
             <span class="link-card-subtitle">Tutorial</span>
           </div>
-          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
+          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7" />
           </svg>
         </a>
 
         <a href="tutorials/aiostreams-elfhosted.html" class="link-card">
           <div class="link-card-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
-              <path d="M8 7h6"/>
-              <path d="M8 11h8"/>
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z" />
+              <path d="M8 7h6" />
+              <path d="M8 11h8" />
             </svg>
           </div>
           <div class="link-card-content">
             <span class="link-card-title" data-i18n="aiostreams_tutorial">شرح إضافة AIOStreams</span>
             <span class="link-card-subtitle">Tutorial</span>
           </div>
-          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
+          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7" />
           </svg>
         </a>
 
         <a href="tutorials/stremio-subtitles-guide.html" class="link-card">
           <div class="link-card-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
-              <path d="M8 7h6"/>
-              <path d="M8 11h8"/>
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z" />
+              <path d="M8 7h6" />
+              <path d="M8 11h8" />
             </svg>
           </div>
           <div class="link-card-content">
             <span class="link-card-title" data-i18n="subtitles_tutorial">حل مشاكل الترجمة</span>
             <span class="link-card-subtitle">Tutorial</span>
           </div>
-          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
+          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7" />
           </svg>
         </a>
 
         <a href="tutorials/arabic-posters-stremio.html" class="link-card">
           <div class="link-card-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
-              <path d="M8 7h6"/>
-              <path d="M8 11h8"/>
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z" />
+              <path d="M8 7h6" />
+              <path d="M8 11h8" />
             </svg>
           </div>
           <div class="link-card-content">
             <span class="link-card-title" data-i18n="posters_tutorial">تعريب البوسترات</span>
             <span class="link-card-subtitle">Tutorial</span>
           </div>
-          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
+          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7" />
           </svg>
         </a>
 
         <a href="tutorials/youtube-stremio-addon.html" class="link-card">
           <div class="link-card-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
-              <path d="M8 7h6"/>
-              <path d="M8 11h8"/>
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z" />
+              <path d="M8 7h6" />
+              <path d="M8 11h8" />
             </svg>
           </div>
           <div class="link-card-content">
             <span class="link-card-title" data-i18n="youtube_tutorial">إضافة اليوتيوب</span>
             <span class="link-card-subtitle">Tutorial</span>
           </div>
-          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
+          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7" />
           </svg>
         </a>
 
         <a href="tutorials/comet-stremio-addon.html" class="link-card">
           <div class="link-card-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
-              <path d="M8 7h6"/>
-              <path d="M8 11h8"/>
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z" />
+              <path d="M8 7h6" />
+              <path d="M8 11h8" />
             </svg>
           </div>
           <div class="link-card-content">
             <span class="link-card-title" data-i18n="comet_tutorial">شرح إضافة Comet</span>
             <span class="link-card-subtitle">Tutorial</span>
           </div>
-          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
+          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7" />
           </svg>
         </a>
 
         <a href="tutorials/lg-tv-stremio.html" class="link-card">
           <div class="link-card-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
-              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
             </svg>
           </div>
           <div class="link-card-content">
             <span class="link-card-title" data-i18n="lg_tv_tutorial">شرح شاشات LG</span>
             <span class="link-card-subtitle">Video Tutorial</span>
           </div>
-          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
+          <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7" />
           </svg>
         </a>
       </div>
+    </div>
+
+    <!-- Privacy Policy Button -->
+    <div class="section-container fade-in" style="margin-top: 48px; width: 100%;">
+      <a href="privacy/" class="link-card">
+        <div class="link-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          </svg>
+        </div>
+        <div class="link-card-content">
+          <span class="link-card-title" data-i18n="privacy_title">سياسة الخصوصية</span>
+          <span class="link-card-subtitle" data-i18n="privacy_desc">اقرأ التزامنا بحماية بياناتك وخصوصيتك.</span>
+        </div>
+        <svg class="link-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7" />
+        </svg>
+      </a>
     </div>
 
     <!-- Footer -->
@@ -206,4 +271,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
