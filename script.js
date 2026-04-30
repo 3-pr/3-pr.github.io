@@ -2,8 +2,9 @@
 const translations = {
   ar: {
     name: 'ياسر الحربي',
-    bio: 'مبرمج ومهتم بالتقنية',
     twitter_title: 'تويتر / إكس',
+    telegram_title: 'تيليجرام',
+    github_title: 'قيت هوب',
     support_title: 'دعم مادي',
     footer: '© 2026 YASSER ALHARBI',
     langLabel: 'EN',
@@ -25,8 +26,9 @@ const translations = {
   },
   en: {
     name: 'YASSER ALHARBI',
-    bio: 'Developer & Tech Enthusiast',
     twitter_title: 'Twitter / X',
+    telegram_title: 'Telegram',
+    github_title: 'GitHub',
     support_title: 'Support Me',
     footer: '© 2026 YASSER ALHARBI',
     langLabel: 'ع',
