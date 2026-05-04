@@ -12,21 +12,24 @@ https://dflive.app.tc/61.m3u8
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 1
 http://baskhd2.ddns.net:1935/live/stvsport/chunklist.m3u8
 
+#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 1 server 2
+http://afcocafot.com:8080/bn1hd/index.m3u8
+
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 2
-http://tv.startseven.tn:2052/live/t5fus4VRzdAW/RsHeAhYzC9sn/13081.ts
-#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 3
-http://tv.startseven.tn:2052/live/t5fus4VRzdAW/RsHeAhYzC9sn/49370.ts
+http://afcocafot.com:8080/bn2hd/index.m3u8
+#EXTINF:-1 group-title="sports" tvg-logo=4"https://3-pr.github.io/logos/bein.jpeg" ,BEIN 3
+http://tv.startseven.tn:2052/live/32145BN/FRdin123/49370.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 4
 http://tv.startseven.tn:2052/live/t5fus4VRzdAW/RsHeAhYzC9sn/20736.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 5
-http://tv.startseven.tn:2052/live/t5fus4VRzdAW/RsHeAhYzC9sn/48222.ts
+http://tv.startseven.tn:2052/live/32145BN/FRdin123/48222.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 6
-http://tv.startseven.tn:2052/live/t5fus4VRzdAW/RsHeAhYzC9sn/48221.ts
+http://tv.startseven.tn:2052/live/32145BN/FRdin123/48221.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 7
-http://tv.startseven.tn:2052/live/t5fus4VRzdAW/RsHeAhYzC9sn/48220.ts
+http://tv.startseven.tn:2052/live/32145BN/FRdin123/48220.ts
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 8
-http://arox.cc/live/1100817324546248/1100817324546248/183170.ts
+http://afcocafot.com:8080/bn8hd/index.m3u8
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 9
-http://arox.cc/live/1100817324546248/1100817324546248/183171.ts
+http://afcocafot.com:8080/bn9hd/index.m3u8
