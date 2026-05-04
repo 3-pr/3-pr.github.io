@@ -33,3 +33,24 @@ http://afcocafot.com:8080/bn8hd/index.m3u8
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 9
 http://afcocafot.com:8080/bn9hd/index.m3u8
+
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 1 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 1 4K
+http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/418112.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 2 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 2 4K
+http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/418115.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 3 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 3 4K
+http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/418118.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 4 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 4 4K
+http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/418121.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 5 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 5 4K
+http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/418124.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 6 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 6 4K
+http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/418127.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 7 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 7 4K
+http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/433739.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 8 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 8 4K
+http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/433740.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 9 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 9 4K
+http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/433741.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 10 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 10 4K
+http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/433742.ts
