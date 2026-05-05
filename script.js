@@ -2,6 +2,7 @@
 const translations = {
   ar: {
     name: 'ياسر الحربي',
+    bio: 'شغوف بالبرمجة، أصنع أدوات تسهل حياتك الرقمية.',
     twitter_title: 'تويتر / إكس',
     telegram_title: 'تيليجرام',
     github_title: 'قيت هوب',
@@ -21,11 +22,14 @@ const translations = {
     letterstremio_desc: 'إضافة تتيح لك إضافة زر "مشاهدة على Stremio" في موقع Letterboxd.',
     letternuvio_title: 'LetterNuvio',
     letternuvio_desc: 'مزامنة مكتبة Letterboxd مع تطبيق Nuvio.',
+    syncbridge_title: 'SyncBridge',
+    syncbridge_desc: 'مزامنة إضافات Stremio إلى Nuvio بلمسة واحدة.',
     privacy_title: 'سياسة الخصوصية',
     privacy_desc: 'اقرأ التزامنا بحماية بياناتك وخصوصيتك.',
   },
   en: {
     name: 'YASSER ALHARBI',
+    bio: 'Passionate developer, building tools to simplify your digital life.',
     twitter_title: 'Twitter / X',
     telegram_title: 'Telegram',
     github_title: 'GitHub',
@@ -45,6 +49,8 @@ const translations = {
     letterstremio_desc: 'Adds a "Watch on Stremio" button to Letterboxd pages.',
     letternuvio_title: 'LetterNuvio',
     letternuvio_desc: 'Sync your Letterboxd library with Nuvio app.',
+    syncbridge_title: 'SyncBridge',
+    syncbridge_desc: 'Sync Stremio addons to Nuvio with one click.',
     privacy_title: 'Privacy Policy',
     privacy_desc: 'Read our commitment to your data security and privacy.',
   },

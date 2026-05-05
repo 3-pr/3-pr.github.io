@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyncBridge | Stremio to Nuvio Sync</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=IBM+Plex+Serif:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-primary: #0a0a0c;
+            --bg-secondary: #111115;
+            --bg-card: rgba(255, 255, 255, 0.04);
+            --bg-card-hover: rgba(255, 255, 255, 0.08);
+            --border-card: rgba(255, 255, 255, 0.06);
+            --border-card-hover: rgba(255, 255, 255, 0.12);
+            --text-primary: #f0f0f2;
+            --text-secondary: #8b8b96;
+            --text-muted: #55555e;
+            --accent: #c8a96e; /* Gold */
+            --accent-glow: rgba(200, 169, 110, 0.15);
+            --accent-dim: rgba(200, 169, 110, 0.08);
+            --radius: 16px;
+            --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            
+            /* Platform Colors */
+            --stremio: #7B3FE4;
+            --nuvio: var(--accent);
+            --success: #00E676;
+            --error: #FF4444;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: 'IBM Plex Sans Arabic', sans-serif;
+            min-height: 100dvh;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            line-height: 1.6;
+        }
+
+        /* Ambient Background Effect */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background:
+                radial-gradient(ellipse 600px 600px at 30% 20%, rgba(200, 169, 110, 0.03), transparent),
+                radial-gradient(ellipse 500px 500px at 70% 80%, rgba(123, 63, 228, 0.02), transparent);
+            pointer-events: none;
+            z-index: 0;
+            animation: ambientDrift 20s ease-in-out infinite alternate;
+        }
+
+        @keyframes ambientDrift {
+            0% { transform: translate(0, 0) rotate(0deg); }
+            100% { transform: translate(30px, -20px) rotate(2deg); }
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        .main-header {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            margin-bottom: 48px;
+            gap: 12px;
+            font-family: 'IBM Plex Serif', serif;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            color: var(--accent);
+        }
+
+        .logo-bridge span {
+            background: linear-gradient(90deg, var(--accent), #fff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Panels / Sections */
+        .logo-bridge {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-family: 'IBM Plex Serif', serif;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            color: var(--accent);
+            direction: ltr !important; /* Always LTR for the brand */
+        }
+
+        .glass-panel {
+            background: var(--bg-card);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--border-card);
+            border-radius: var(--radius);
+            padding: 24px;
+            transition: var(--transition);
+        }
+
+        /* Connection Screen */
+        #connection-screen {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin: auto 0;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        input {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--border-card);
+            padding: 12px 16px;
+            border-radius: 12px;
+            color: var(--text-primary);
+            font-family: inherit;
+            transition: var(--transition);
+            text-align: right;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--accent);
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        /* Buttons */
+        .btn {
+            width: 100%;
+            background: var(--bg-card);
+            border: 1px solid var(--border-card);
+            color: var(--text-primary);
+            padding: 14px;
+            border-radius: 12px;
+            font-family: inherit;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn:hover:not(:disabled) {
+            background: var(--bg-card-hover);
+            border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        .btn-primary {
+            background: var(--accent-dim);
+            border-color: rgba(200, 169, 110, 0.3);
+            color: var(--accent);
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            background: var(--accent);
+            color: var(--bg-primary);
+            box-shadow: 0 0 20px var(--accent-glow);
+        }
+
+        .btn-proceed {
+            margin-top: 32px;
+            max-width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #sync-screen {
+            display: none;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            min-height: 500px;
+            max-height: 80vh;
+            position: relative;
+        }
+
+        .sync-panel {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            background: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: var(--radius);
+            padding: 20px;
+        }
+
+        .addon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            grid-auto-rows: min-content;
+            gap: 12px;
+            overflow-y: auto;
+            padding: 4px;
+            flex-grow: 1;
+            margin-bottom: 16px;
+            align-content: flex-start;
+        }
+
+        /* Nav Container */
+        .nav-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+            display: flex;
+            gap: 10px;
+        }
+
+        .lang-toggle, .nav-btn {
+            background: var(--bg-card);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-card);
+            color: var(--text-secondary);
+            font-size: 13px;
+            font-weight: 500;
+            padding: 8px 16px;
+            border-radius: 100px;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            text-decoration: none;
+        }
+
+        .lang-toggle:hover, .nav-btn:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent);
+            color: var(--text-primary);
+        }
+
+        /* Scrollbar */
+        .addon-grid::-webkit-scrollbar { width: 4px; }
+        .addon-grid::-webkit-scrollbar-track { background: transparent; }
+        .addon-grid::-webkit-scrollbar-thumb { background: var(--border-card-hover); border-radius: 10px; }
+
+        .addon-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: 12px;
+            padding: 16px;
+            cursor: pointer;
+            transition: var(--transition);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 12px;
+            position: relative;
+            height: auto;
+            min-height: 140px;
+        }
+
+        .addon-card:hover {
+            border-color: var(--accent);
+            background: var(--bg-card-hover);
+            transform: translateY(-4px);
+        }
+
+        .addon-card.selected {
+            border-color: var(--accent);
+            background: var(--accent-dim);
+        }
+
+        .addon-logo-container {
+            width: 56px;
+            height: 56px;
+            border-radius: 10px;
+            overflow: hidden;
+            background: var(--bg-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid var(--border-card);
+        }
+
+        .addon-logo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .addon-initials {
+            font-family: 'IBM Plex Serif', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--accent);
+            text-transform: uppercase;
+        }
+
+        .addon-initials.hidden {
+            display: none;
+        }
+        
+        .addon-logo.hidden {
+            display: none;
+        }
+
+        .addon-name {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-primary);
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* Checkbox */
+        .checkbox {
+            position: absolute;
+            top: 8px;
+            left: 8px; /* RTL */
+            width: 18px;
+            height: 18px;
+            border: 1px solid var(--border-card-hover);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+        }
+
+        .selected .checkbox {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .selected .checkbox::after {
+            content: '✓';
+            color: var(--bg-primary);
+            font-size: 11px;
+            font-weight: 900;
+        }
+
+        /* Progress Bar */
+        .transfer-center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            pointer-events: none;
+            width: 200px;
+            text-align: center;
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            height: 4px;
+            background: var(--border-card);
+            border-radius: 10px;
+            overflow: hidden;
+            display: none;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background: var(--accent);
+            width: 0%;
+            transition: width 0.3s ease;
+            box-shadow: 0 0 10px var(--accent-glow);
+        }
+
+        .transfer-arrow {
+            font-size: 24px;
+            color: var(--accent);
+            opacity: 0;
+            transform: scaleX(-1); /* RTL arrow */
+        }
+
+        .transferring .transfer-arrow {
+            opacity: 1;
+            animation: arrow-flow-rtl 1.5s infinite;
+        }
+
+        @keyframes arrow-flow-rtl {
+            0% { transform: translateX(20px) scaleX(-1); opacity: 0; }
+            50% { transform: translateX(0) scaleX(-1); opacity: 1; }
+            100% { transform: translateX(-20px) scaleX(-1); opacity: 0; }
+        }
+
+        /* Toasts */
+        #toast-container {
+            position: fixed;
+            bottom: 24px;
+            left: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 1000;
+        }
+
+        .toast {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-card);
+            border-right: 4px solid var(--accent);
+            padding: 16px 24px;
+            border-radius: 12px;
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            transform: translateX(-120%);
+            transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .toast.show { transform: translateX(0); }
+        .toast.error { border-right-color: var(--error); }
+        .toast.success { border-right-color: var(--success); }
+
+        /* Utilities */
+        .loader {
+            width: 18px;
+            height: 18px;
+            border: 2px solid rgba(200, 169, 110, 0.2);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .hidden { display: none !important; }
+
+        .status-badge {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--text-muted);
+        }
+        .status-badge.connected {
+            background: var(--success);
+            box-shadow: 0 0 10px var(--success);
+        }
+
+        /* Mobile */
+        @media (max-width: 800px) {
+            #connection-screen, #sync-screen { grid-template-columns: 1fr; height: auto; }
+            .transfer-center { position: relative; top: 0; left: 0; transform: none; width: 100%; margin: 24px 0; }
+            .transferring .transfer-arrow { animation: arrow-flow-down 1.5s infinite; }
+        }
+
+        @keyframes arrow-flow-down {
+            0% { transform: translateY(-20px) rotate(90deg); opacity: 0; }
+            50% { transform: translateY(0) rotate(90deg); opacity: 1; }
+            100% { transform: translateY(20px) rotate(90deg); opacity: 0; }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Nav Buttons -->
+    <div class="nav-container">
+        <a href="https://3-pr.github.io" class="nav-btn" title="Back to Home">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /><polyline points="9 22 9 12 15 12 15 22" />
+            </svg>
+        </a>
+        <button class="lang-toggle" id="lang-toggle">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" /><path d="M2 12h20" /><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z" />
+            </svg>
+            <span id="lang-label">EN</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <header class="main-header">
+            <div></div> <!-- Spacer for grid centering -->
+            <div class="logo-bridge">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                    <path d="M12 16v2" />
+                </svg>
+                <span style="display: flex; align-items: center; gap: 8px;">
+                    Stremio Addons 
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                    Nuvio
+                </span>
+            </div>
+            <div id="user-info" class="hidden" style="font-size: 13px; color: var(--text-secondary); text-align: left;">
+                <span data-i18n="stremio_account">Stremio:</span> <span id="stremio-email-display" style="color: var(--accent);">...</span>
+                <button id="logout-btn" class="btn" style="display:inline-flex; width:auto; padding:4px 12px; margin-right:12px; font-size:11px; background:var(--accent-dim); border-color:var(--accent-glow);" data-i18n="logout_btn">تسجيل الخروج</button>
+            </div>
+        </header>
+
+        <!-- Step 1: Connection -->
+        <main id="connection-screen">
+            <div style="grid-column: 1/-1; text-align: center; margin-bottom: 40px; max-width: 600px; margin-left: auto; margin-right: auto;">
+                <p style="font-size: 18px; color: var(--text-secondary); line-height: 1.6; font-weight: 300;" data-i18n="app_description">
+                    أداتك المتكاملة لنقل ومزامنة إضافات Stremio إلى حساب Nuvio الخاص بك بسهولة وأمان. قم بربط حساباتك الآن وابدأ المزامنة بلمسة واحدة.
+                </p>
+            </div>
+
+            <section>
+                <h2 class="section-title" data-i18n="stremio_settings">إعدادات Stremio</h2>
+                <div class="glass-panel">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+                        <span style="font-weight: 600;" data-i18n="stremio_account_title">حساب Stremio</span>
+                        <div id="stremio-status" class="status-badge"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="stremio-email" data-i18n="email_label">البريد الإلكتروني</label>
+                        <input type="email" id="stremio-email" placeholder="example@mail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="stremio-password" data-i18n="password_label">كلمة المرور</label>
+                        <input type="password" id="stremio-password" placeholder="••••••••">
+                    </div>
+                    <button id="stremio-connect-btn" class="btn" data-i18n="connect_btn">ربط الحساب</button>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title" data-i18n="nuvio_settings">إعدادات Nuvio</h2>
+                <div class="glass-panel">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+                        <span style="font-weight: 600;" data-i18n="nuvio_account_title">حساب Nuvio</span>
+                        <div id="nuvio-status" class="status-badge"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="nuvio-email" data-i18n="email_label">البريد الإلكتروني</label>
+                        <input type="email" id="nuvio-email" placeholder="example@mail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="nuvio-password" data-i18n="password_label">كلمة المرور</label>
+                        <input type="password" id="nuvio-password" placeholder="••••••••">
+                    </div>
+                    <button id="nuvio-connect-btn" class="btn" data-i18n="connect_btn">ربط الحساب</button>
+                </div>
+            </section>
+
+            <div style="grid-column: 1/-1; display: flex; flex-direction: column; align-items: center; gap: 16px;">
+                <p style="font-size: 13px; color: var(--text-muted); opacity: 0.7; text-align: center; max-width: 400px;" data-i18n="privacy_note">
+                    يتم ربط بياناتك مباشرة مع الخوادم الرسمية دون المرور عبر أي سيرفرات وسيطة، لضمان خصوصيتك وأمانك.
+                </p>
+                <button id="proceed-btn" class="btn btn-primary btn-proceed" disabled data-i18n="start_sync">ابدأ المزامنة</button>
+                <a href="https://creators.sa/i" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 6px; color: var(--text-muted); font-size: 13px; text-decoration: none; transition: var(--transition); margin-top: 8px;">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="var(--accent)" style="opacity: 0.8;">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                    </svg>
+                    <span data-i18n="support_title">دعم مادي</span>
+                </a>
+            </div>
+        </main>
+
+        <!-- Step 2: Sync Interface -->
+        <main id="sync-screen">
+            <div class="transfer-center">
+                <div class="transfer-arrow" id="transfer-arrow">←</div>
+                <div class="progress-bar-container" id="sync-progress-container">
+                    <div class="progress-bar-fill" id="sync-progress-fill"></div>
+                </div>
+                <div id="sync-status-text" style="font-size: 11px; color: var(--text-muted); margin-top: 8px;"></div>
+            </div>
+
+            <!-- Stremio Source -->
+            <section class="sync-panel">
+                <h2 class="section-title"><span data-i18n="source_title">المصدر: Stremio</span> (<span id="stremio-count">0</span>)</h2>
+                <div id="stremio-addons-grid" class="addon-grid"></div>
+                <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: center; padding-top: 16px; border-top: 1px solid var(--border-card);">
+                    <label style="display: flex; align-items: center; gap: 8px; font-size: 13px; cursor: pointer;">
+                        <input type="checkbox" id="select-all" style="width: 16px; height: 16px;"> <span data-i18n="select_all">الكل</span>
+                    </label>
+                    <button id="transfer-btn" class="btn btn-primary" style="width: auto; padding: 8px 20px; font-size: 13px;" disabled>
+                        <span data-i18n="transfer_btn">نقل</span> <span id="selected-count">0</span> <span data-i18n="addons_count">إضافات</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Nuvio Destination -->
+            <section class="sync-panel">
+                <h2 class="section-title"><span data-i18n="dest_title">الوجهة: Nuvio</span> (<span id="nuvio-count">0</span>)</h2>
+                <div id="nuvio-addons-grid" class="addon-grid"></div>
+                <div style="margin-top: auto; display: flex; justify-content: flex-end; padding-top: 16px; border-top: 1px solid var(--border-card);">
+                    <button id="refresh-nuvio-btn" class="btn hidden" style="width: auto; padding: 8px 16px; font-size: 12px;" data-i18n="refresh_btn">
+                        تحديث القائمة 🔄
+                    </button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div id="toast-container"></div>
+
+    <script>
+        const NUVIO_CONFIG = {
+            API_URL: "https://dpyhjjcoabcglfmgecug.supabase.co",
+            ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRweWhqamNvYWJjZ2xmbWdlY3VnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA3ODYyNDcsImV4cCI6MjA4NjM2MjI0N30.U-3QSNDdpsnvRk_7ZL419AFTOtggHJJcmkodxeXjbkg"
+        };
+
+        const i18n = {
+            ar: {
+                stremio_account: 'Stremio:',
+                stremio_settings: 'إعدادات Stremio',
+                stremio_account_title: 'حساب Stremio',
+                nuvio_settings: 'إعدادات Nuvio',
+                nuvio_account_title: 'حساب Nuvio',
+                email_label: 'البريد الإلكتروني',
+                password_label: 'كلمة المرور',
+                connect_btn: 'ربط الحساب',
+                start_sync: 'ابدأ المزامنة',
+                source_title: 'المصدر: Stremio',
+                dest_title: 'الوجهة: Nuvio',
+                select_all: 'الكل',
+                transfer_btn: 'نقل',
+                addons_count: 'إضافات',
+                refresh_btn: 'تحديث القائمة 🔄',
+                unknown_addon: 'إضافة مجهولة',
+                syncing_count: 'جاري رفع {n} إضافة...',
+                sync_complete: 'اكتملت المزامنة',
+                stremio_connected: 'تم ربط Stremio بنجاح',
+                nuvio_connected: 'تم ربط Nuvio بنجاح',
+                all_exist: 'جميع الإضافات المختارة موجودة بالفعل',
+                logout_btn: 'خروج',
+                login_failed: 'خطأ في البريد أو كلمة المرور',
+                app_description: 'أداتك المتكاملة لنقل ومزامنة إضافات Stremio إلى حساب Nuvio الخاص بك بسهولة وأمان. قم بربط حساباتك الآن وابدأ المزامنة بلمسة واحدة.',
+                privacy_note: 'يتم ربط بياناتك مباشرة مع الخوادم الرسمية دون المرور عبر أي سيرفرات وسيطة، لضمان خصوصيتك وأمانك.',
+                support_title: 'دعم مادي'
+            },
+            en: {
+                stremio_account: 'Stremio:',
+                stremio_settings: 'Stremio Settings',
+                stremio_account_title: 'Stremio Account',
+                nuvio_settings: 'Nuvio Settings',
+                nuvio_account_title: 'Nuvio Account',
+                email_label: 'Email',
+                password_label: 'Password',
+                connect_btn: 'Connect Account',
+                start_sync: 'Start Sync',
+                source_title: 'Source: Stremio',
+                dest_title: 'Destination: Nuvio',
+                select_all: 'All',
+                transfer_btn: 'Transfer',
+                addons_count: 'Addons',
+                refresh_btn: 'Refresh List 🔄',
+                unknown_addon: 'Unknown Addon',
+                syncing_count: 'Pushing {n} addons...',
+                sync_complete: 'Sync Complete',
+                stremio_connected: 'Stremio connected',
+                nuvio_connected: 'Nuvio connected',
+                all_exist: 'All selected addons already exist',
+                logout_btn: 'Logout',
+                login_failed: 'Invalid email or password',
+                app_description: 'Your all-in-one tool to easily and securely sync Stremio addons to your Nuvio account. Connect your accounts and start syncing with one click.',
+                privacy_note: 'Your data is connected directly to official servers without passing through intermediate servers, ensuring your privacy and security.',
+                support_title: 'Support'
+            }
+        };
+
+        const state = {
+            lang: localStorage.getItem('sn_lang') || 'ar',
+            stremio: { 
+                authKey: localStorage.getItem('stremio_authKey'), 
+                email: localStorage.getItem('stremio_email'), 
+                addons: [], 
+                connected: !!localStorage.getItem('stremio_authKey') 
+            },
+            nuvio: { 
+                jwt: localStorage.getItem('nuvio_jwt'), 
+                email: localStorage.getItem('nuvio_email'), 
+                addons: [], 
+                connected: !!localStorage.getItem('nuvio_jwt') 
+            },
+            selectedAddons: new Set(),
+            isTransferring: false
+        };
+
+        const $ = (id) => document.getElementById(id);
+
+        function updateLanguage() {
+            document.documentElement.lang = state.lang;
+            $('lang-label').innerText = state.lang === 'ar' ? 'EN' : 'AR';
+            
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                el.innerText = i18n[state.lang][key];
+            });
+            renderStremioAddons();
+            renderNuvioAddons();
+        }
+
+        $('lang-toggle').onclick = () => {
+            state.lang = state.lang === 'ar' ? 'en' : 'ar';
+            localStorage.setItem('sn_lang', state.lang);
+            updateLanguage();
+        };
+
+        function handleLogout() {
+            localStorage.removeItem('stremio_authKey');
+            localStorage.removeItem('stremio_email');
+            localStorage.removeItem('nuvio_jwt');
+            localStorage.removeItem('nuvio_email');
+            location.reload();
+        }
+
+        $('logout-btn').onclick = handleLogout;
+
+        // Restore UI state from persisted session
+        if (state.stremio.connected) {
+            $('stremio-status').classList.add('connected');
+            $('stremio-email-display').innerText = state.stremio.email;
+            $('stremio-email').value = state.stremio.email || '';
+        }
+        if (state.nuvio.connected) {
+            $('nuvio-status').classList.add('connected');
+            $('nuvio-email').value = state.nuvio.email || '';
+        }
+        
+        checkProceed();
+
+        // Auto-transition if both are connected
+        if (state.stremio.connected && state.nuvio.connected) {
+            setTimeout(() => {
+                $('proceed-btn').click();
+            }, 500);
+        }
+
+        // Auto-detect language
+        if (navigator.language.startsWith('en')) {
+            state.lang = 'en';
+            updateLanguage();
+        }
+
+        function showToast(messageKey, type = 'success', params = {}) {
+            let msg = i18n[state.lang][messageKey] || messageKey;
+            for (const [k, v] of Object.entries(params)) msg = msg.replace(`{${k}}`, v);
+            
+            const toast = document.createElement('div');
+            toast.className = `toast ${type}`;
+            toast.innerHTML = `<div style="flex:1">${msg}</div>`;
+            $('toast-container').appendChild(toast);
+            setTimeout(() => toast.classList.add('show'), 10);
+            setTimeout(() => {
+                toast.classList.remove('show');
+                setTimeout(() => toast.remove(), 500);
+            }, 4000);
+        }
+
+        // --- Stremio API ---
+        async function stremioLogin(email, password) {
+            const btn = $('stremio-connect-btn');
+            const originalText = btn.innerText;
+            try {
+                btn.disabled = true;
+                btn.innerHTML = '<div class="loader"></div>';
+                const response = await fetch('https://api.strem.io/api/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: new URLSearchParams({ email, password })
+                });
+                const data = await response.json();
+                if (data.result?.authKey) {
+                    state.stremio.authKey = data.result.authKey;
+                    state.stremio.email = email;
+                    state.stremio.connected = true;
+                    
+                    localStorage.setItem('stremio_authKey', data.result.authKey);
+                    localStorage.setItem('stremio_email', email);
+
+                    $('stremio-status').classList.add('connected');
+                    $('stremio-email-display').innerText = email;
+                    showToast('stremio_connected');
+                    checkProceed();
+                } else throw new Error('login_failed');
+            } catch (err) {
+                showToast(err.message === 'login_failed' ? 'login_failed' : err.message, 'error');
+                $('stremio-status').classList.remove('connected');
+            } finally {
+                btn.disabled = false;
+                btn.innerText = originalText;
+            }
+        }
+
+        async function fetchStremioAddons() {
+            if (!state.stremio.authKey) return;
+            try {
+                const response = await fetch('https://api.strem.io/api/addonCollectionGet', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: new URLSearchParams({ authKey: state.stremio.authKey })
+                });
+                const data = await response.json();
+                if (data.result?.addons) {
+                    state.stremio.addons = data.result.addons;
+                    renderStremioAddons();
+                }
+            } catch (err) { console.error(err); }
+        }
+
+        // --- Nuvio API ---
+        async function nuvioLogin(email, password) {
+            const btn = $('nuvio-connect-btn');
+            const originalText = btn.innerText;
+            try {
+                btn.disabled = true;
+                btn.innerHTML = '<div class="loader"></div>';
+                const response = await fetch(`${NUVIO_CONFIG.API_URL}/auth/v1/token?grant_type=password`, {
+                    method: 'POST',
+                    headers: { 'apikey': NUVIO_CONFIG.ANON_KEY, 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ email, password })
+                });
+                const data = await response.json();
+                if (data.access_token) {
+                    state.nuvio.jwt = data.access_token;
+                    state.nuvio.email = email;
+                    state.nuvio.connected = true;
+
+                    localStorage.setItem('nuvio_jwt', data.access_token);
+                    localStorage.setItem('nuvio_email', email);
+
+                    $('nuvio-status').classList.add('connected');
+                    showToast('nuvio_connected');
+                    checkProceed();
+                    await fetchNuvioAddons();
+                } else throw new Error(data.error_description || 'Login Error');
+            } catch (err) {
+                showToast(err.message, 'error');
+                $('nuvio-status').classList.remove('connected');
+            } finally {
+                btn.disabled = false;
+                btn.innerText = originalText;
+            }
+        }
+
+        async function fetchNuvioAddons() {
+            if (!state.nuvio.jwt) return;
+            try {
+                const response = await fetch(`${NUVIO_CONFIG.API_URL}/rest/v1/addons?select=*&profile_id=eq.1&order=sort_order`, {
+                    headers: { 'apikey': NUVIO_CONFIG.ANON_KEY, 'Authorization': `Bearer ${state.nuvio.jwt}` }
+                });
+                const data = await response.json();
+                state.nuvio.addons = data;
+                renderNuvioAddons();
+            } catch (err) { console.error(err); }
+        }
+
+        // --- Core UI Logic ---
+        function checkProceed() {
+            $('proceed-btn').disabled = !(state.stremio.connected && state.nuvio.connected);
+        }
+
+        function updateSelectionUI() {
+            $('selected-count').innerText = state.selectedAddons.size;
+            $('transfer-btn').disabled = state.selectedAddons.size === 0 || state.isTransferring;
+            renderStremioAddons();
+        }
+
+        function renderStremioAddons() {
+            const grid = $('stremio-addons-grid');
+            grid.innerHTML = '';
+            $('stremio-count').innerText = state.stremio.addons.length;
+            
+            state.stremio.addons.forEach(addon => {
+                const name = addon.manifest?.name || i18n[state.lang].unknown_addon;
+                const initials = name.charAt(0);
+                const logoUrl = addon.manifest?.logo;
+                
+                const card = document.createElement('div');
+                card.className = `addon-card ${state.selectedAddons.has(addon.transportUrl) ? 'selected' : ''}`;
+                
+                card.innerHTML = `
+                    <div class="checkbox"></div>
+                    <div class="addon-logo-container">
+                        ${logoUrl ? 
+                            `<img class="addon-logo" src="${logoUrl}" onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden')">
+                             <span class="addon-initials hidden">${initials}</span>` : 
+                            `<span class="addon-initials">${initials}</span>`
+                        }
+                    </div>
+                    <div class="addon-name">${name}</div>
+                `;
+                card.onclick = () => {
+                    if (state.selectedAddons.has(addon.transportUrl)) state.selectedAddons.delete(addon.transportUrl);
+                    else state.selectedAddons.add(addon.transportUrl);
+                    updateSelectionUI();
+                };
+                grid.appendChild(card);
+            });
+        }
+
+        function renderNuvioAddons() {
+            const grid = $('nuvio-addons-grid');
+            grid.innerHTML = '';
+            $('nuvio-count').innerText = state.nuvio.addons.length;
+            
+            state.nuvio.addons.forEach(addon => {
+                // Cross-reference with Stremio names if Nuvio name is null
+                const stremioMatch = state.stremio.addons.find(s => s.transportUrl === addon.url);
+                const name = addon.name || (stremioMatch?.manifest?.name) || i18n[state.lang].unknown_addon;
+                const initials = name.charAt(0);
+                
+                const card = document.createElement('div');
+                card.className = `addon-card`;
+                card.innerHTML = `
+                    <div class="addon-logo-container">
+                        <span class="addon-initials">${initials}</span>
+                    </div>
+                    <div class="addon-name">${name}</div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        async function handleTransfer() {
+            if (state.isTransferring) return;
+            state.isTransferring = true;
+            $('sync-screen').classList.add('transferring');
+            $('transfer-btn').disabled = true;
+            $('sync-progress-container').style.display = 'block';
+
+            const selectedList = state.stremio.addons.filter(a => state.selectedAddons.has(a.transportUrl));
+            let finalAddons = [...state.nuvio.addons.map(a => ({ url: a.url, name: a.name, enabled: a.enabled, sort_order: a.sort_order }))];
+            let successCount = 0;
+
+            selectedList.forEach(addon => {
+                const manifestName = addon.manifest?.name || 'Unknown Addon';
+                const existingIndex = finalAddons.findIndex(a => a.url === addon.transportUrl);
+                
+                if (existingIndex > -1) {
+                    // Force update the name always to fix "Unknown" issues
+                    finalAddons[existingIndex].name = manifestName;
+                    successCount++;
+                } else {
+                    finalAddons.push({ url: addon.transportUrl, name: manifestName, enabled: true, sort_order: finalAddons.length });
+                    successCount++;
+                }
+            });
+
+            if (successCount === 0) {
+                showToast('all_exist');
+                wrapUpTransfer(); return;
+            }
+
+            try {
+                $('sync-progress-fill').style.width = `50%`;
+                $('sync-status-text').innerText = i18n[state.lang].syncing_count.replace('{n}', finalAddons.length);
+                const res = await fetch(`${NUVIO_CONFIG.API_URL}/rest/v1/rpc/sync_push_addons`, {
+                    method: 'POST',
+                    headers: { 'apikey': NUVIO_CONFIG.ANON_KEY, 'Authorization': `Bearer ${state.nuvio.jwt}`, 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ p_profile_id: 1, p_addons: finalAddons })
+                });
+                if (res.ok) {
+                    showToast('تم النقل وتصحيح الأسماء بنجاح!');
+                    $('sync-progress-fill').style.width = `100%`;
+                    // Immediately fetch to show fixed names
+                    await fetchNuvioAddons();
+                } else throw new Error('Sync failed');
+            } catch (err) { 
+                console.error("RPC Sync Error:", err);
+                showToast(err.message, 'error'); 
+            }
+
+            wrapUpTransfer();
+        }
+
+        function wrapUpTransfer() {
+            state.isTransferring = false;
+            $('sync-screen').classList.remove('transferring');
+            const transferBtn = $('transfer-btn');
+            transferBtn.disabled = false;
+            transferBtn.innerHTML = `${i18n[state.lang].transfer_btn} <span id="selected-count">0</span> ${i18n[state.lang].addons_count}`;
+            
+            // Hide progress after a delay
+            setTimeout(() => {
+                $('sync-progress-container').style.display = 'none';
+                $('sync-status-text').innerText = '';
+            }, 3000);
+
+            $('sync-progress-fill').style.width = `0%`;
+            state.selectedAddons.clear();
+            updateSelectionUI();
+            $('refresh-nuvio-btn').classList.remove('hidden');
+        }
+
+        // --- Event Listeners ---
+        $('stremio-connect-btn').onclick = () => {
+            const email = $('stremio-email').value;
+            const pass = $('stremio-password').value;
+            if (email && pass) stremioLogin(email, pass);
+        };
+
+        $('nuvio-connect-btn').onclick = () => {
+            const email = $('nuvio-email').value;
+            const pass = $('nuvio-password').value;
+            if (email && pass) nuvioLogin(email, pass);
+        };
+
+        $('proceed-btn').onclick = async () => {
+            $('connection-screen').style.display = 'none';
+            $('sync-screen').style.display = 'grid';
+            $('user-info').classList.remove('hidden');
+            await fetchStremioAddons();
+            await fetchNuvioAddons();
+        };
+
+        $('select-all').onchange = (e) => {
+            if (e.target.checked) {
+                state.stremio.addons.forEach(a => state.selectedAddons.add(a.transportUrl));
+            } else {
+                state.selectedAddons.clear();
+            }
+            updateSelectionUI();
+        };
+
+        $('transfer-btn').onclick = handleTransfer;
+        $('refresh-nuvio-btn').onclick = fetchNuvioAddons;
+
+        updateLanguage();
+    </script>
+</body>
+</html>
