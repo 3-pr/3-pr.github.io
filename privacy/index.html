@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +12,12 @@
   <style>
     /* Specific styles for the privacy page text */
     .privacy-container {
-      max-width: 600px; /* Slightly wider for reading text */
+      max-width: 600px;
+      /* Slightly wider for reading text */
       text-align: right;
       padding-top: 60px;
     }
-    
+
     [dir="ltr"] .privacy-container {
       text-align: left;
     }
@@ -72,24 +74,27 @@
     }
   </style>
 </head>
+
 <body>
 
   <!-- Language Toggle -->
   <button class="lang-toggle" id="langToggle" aria-label="Switch language">
-    <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="12" cy="12" r="10"/>
-      <path d="M2 12h20"/>
-      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z"/>
+    <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+      stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10" />
+      <path d="M2 12h20" />
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z" />
     </svg>
     <span id="langLabel">EN</span>
   </button>
 
   <div class="container privacy-container fade-in">
-    
+
     <a href="../index.html" class="back-link">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M19 12H5M12 19l-7-7 7-7" class="ltr-arrow" style="display:none;"/>
-        <path d="M5 12h14M12 5l7 7-7 7" class="rtl-arrow"/>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 12H5M12 19l-7-7 7-7" class="ltr-arrow" style="display:none;" />
+        <path d="M5 12h14M12 5l7 7-7 7" class="rtl-arrow" />
       </svg>
       <span id="btnBack">العودة للرئيسية</span>
     </a>
@@ -97,16 +102,18 @@
     <!-- ARABIC SECTION -->
     <div id="contentAR">
       <h1>سياسة الخصوصية لإضافات المتصفح</h1>
-      
+
       <div class="privacy-content">
         <h2>إضافة LetterStremio</h2>
         <p>تنطبق التفاصيل التالية خصيصاً على إضافة <strong>LetterStremio</strong>:</p>
-        
+
         <div style="margin-top: 20px;">
           <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">1. البيانات الوظيفية (محلياً)</h3>
           <p>الإضافة لا تقوم بجمع أي بيانات شخصية للمطور. البيانات التالية تُعالج برمجياً لضمان عمل الإضافة فقط:</p>
-          <p>• <strong>بيانات الاعتماد:</strong> عنوان البريد الإلكتروني ومفتاح المصادقة الخاص بحساب Stremio (تُحفظ محلياً فقط عند تسجيل الدخول).</p>
-          <p>• <strong>بيانات المحتوى:</strong> معلومات الفيلم (العنوان، المعرف) من صفحة Letterboxd لتحديد المحتوى المطلوب إضافته.</p>
+          <p>• <strong>بيانات الاعتماد:</strong> عنوان البريد الإلكتروني ومفتاح المصادقة الخاص بحساب Stremio (تُحفظ
+            محلياً فقط عند تسجيل الدخول).</p>
+          <p>• <strong>بيانات المحتوى:</strong> معلومات الفيلم (العنوان، المعرف) من صفحة Letterboxd لتحديد المحتوى
+            المطلوب إضافته.</p>
         </div>
 
         <div style="margin-top: 20px;">
@@ -117,65 +124,75 @@
 
         <div style="margin-top: 20px;">
           <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">3. تخزين البيانات</h3>
-          <p>• يتم تخزين عنوان البريد الإلكتروني ومفتاح المصادقة <strong>محلياً فقط</strong> على جهازك (chrome.storage.local). لا نقوم بتخزين أي من بياناتك على خوادم خاصة بنا.</p>
+          <p>• يتم تخزين عنوان البريد الإلكتروني ومفتاح المصادقة <strong>محلياً فقط</strong> على جهازك
+            (chrome.storage.local). لا نقوم بتخزين أي من بياناتك على خوادم خاصة بنا.</p>
         </div>
 
         <div style="margin-top: 20px;">
           <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">4. مشاركة البيانات</h3>
-          <p>• تتم مشاركة البيانات مع <strong>واجهة برمجة التطبيقات الرسمية لـ Stremio</strong> (api.strem.io) فقط عند طلبك إضافة محتوى إلى مكتبتك.</p>
+          <p>• تتم مشاركة البيانات مع <strong>واجهة برمجة التطبيقات الرسمية لـ Stremio</strong> (api.strem.io) فقط عند
+            طلبك إضافة محتوى إلى مكتبتك.</p>
         </div>
       </div>
 
       <div class="privacy-content">
         <h2>إضافة LetterNuvio</h2>
-        <p>تنطبق التفاصيل التالية خصيصاً على إضافة <strong>LetterNuvio</strong>:</p>
-        
+        <p>تنطبق التفاصيل التالية خصيصاً على إضافة <strong>LetterNuvio</strong>، وهي تهدف لتوضيح كيفية تعاملنا مع بياناتك بكل شفافية لضمان الامتثال لسياسات الخصوصية:</p>
+
         <div style="margin-top: 20px;">
-          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">1. البيانات الوظيفية (محلياً)</h3>
-          <p>الإضافة لا تقوم بجمع أو إرسال أي بيانات للمطور. البيانات التالية تُعالج برمجياً لغرض المزامنة فقط:</p>
-          <p>• <strong>بيانات الاعتماد:</strong> مفتاح المصادقة (JWT) الخاص بحساب Nuvio (يُحفظ محلياً في متصفحك).</p>
-          <p>• <strong>بيانات المحتوى:</strong> معلومات الفيلم (العنوان، المعرف) من صفحة Letterboxd للتعرف على الفيلم.</p>
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">1. جمع البيانات واستخدامها</h3>
+          <p>لتمكين مزامنة المحتوى مع حساب Nuvio الخاص بك، نجمع البيانات التالية:</p>
+          <p>• <strong>بيانات الاعتماد:</strong> رمز الوصول (JWT) ومعرف الملف الشخصي (Profile ID). تُستخدم هذه البيانات لمصادقة عمليات الإضافة والمزامنة مع حسابك.</p>
+          <p>• <strong>بيانات المحتوى:</strong> (العنوان، سنة الإصدار، رابط البوستر، ومعرف IMDb). تُجمع هذه المعلومات من صفحة الفيلم على Letterboxd لتخزينها في مكتبتك.</p>
+          <p>• <strong>البيانات التقنية:</strong> يتم إرسال استعلامات نصية (عنوان الفيلم) إلى محرك بحث Cinemeta لإيجاد المعرفات الصحيحة في حال عدم توفرها في الصفحة.</p>
         </div>
 
         <div style="margin-top: 20px;">
-          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">2. معالجة البيانات</h3>
-          <p>• استخدام مفتاح المصادقة للتواصل مع واجهة برمجة تطبيقات Nuvio (Supabase) نيابة عنك.</p>
-          <p>• معالجة بيانات الفيلم لتنسيقها وإرسالها إلى مكتبتك في Nuvio عند النقر على زر "إضافة للمكتبة".</p>
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">2. مشاركة البيانات (أطراف ثالثة)</h3>
+          <p>نحن لا نبيع بياناتك أبداً. نشارك البيانات فقط مع الخدمات التقنية اللازمة لعمل الإضافة:</p>
+          <p>• <strong>Nuvio Backend (Supabase):</strong> يتم إرسال كافة بيانات المكتبة والمصادقة إلى خادم Nuvio الرسمي (dpyhjjcoabcglfmgecug.supabase.co).</p>
+          <p>• <strong>Cinemeta API (v3-cinemeta.strem.io):</strong> للبحث عن معرفات الأفلام الناقصة. لا يتم إرسال أي بيانات شخصية هنا.</p>
         </div>
 
         <div style="margin-top: 20px;">
-          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">3. تخزين البيانات</h3>
-          <p>• يتم تخزين مفتاح المصادقة <strong>محلياً فقط</strong> على جهازك (chrome.storage.local). لا نقوم بتخزين أي من بياناتك على خوادم خاصة بنا.</p>
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">3. تخزين البيانات والاحتفاظ بها</h3>
+          <p>• <strong>التخزين المحلي:</strong> يتم تخزين رموز المصادقة محلياً في المتصفح (chrome.storage.local) لسهولة الوصول.</p>
+          <p>• <strong>التخزين السحابي:</strong> بيانات المكتبة تُخزن سحابياً في قاعدة بيانات Nuvio المرتبطة بحسابك لضمان توفرها لك في أي وقت ومن أي مكان.</p>
         </div>
 
         <div style="margin-top: 20px;">
-          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">4. مشاركة البيانات</h3>
-          <p>• تتم مشاركة البيانات مع <strong>الخادم الرسمي لـ Nuvio</strong> فقط عند طلبك إضافة محتوى إلى مكتبتك.</p>
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">4. حقوق المستخدم وحذف البيانات</h3>
+          <p>لديك الحق الكامل في الوصول إلى بياناتك أو طلب حذفها:</p>
+          <p>• يمكنك حذف بيانات الاعتماد المخزنة محلياً ببساطة عن طريق تسجيل الخروج من الإضافة أو حذفها من المتصفح.</p>
+          <p>• لحذف البيانات المخزنة في خوادم Nuvio، يجب عليك استخدام واجهة تطبيق Nuvio الرسمية.</p>
         </div>
       </div>
 
       <div class="privacy-content">
         <h2>إضافات أخرى</h2>
-        <p>تعتبر هذه الصفحة مرجعاً عاماً لجميع الإضافات الخاصة بنا. سيتم ذكر سياسة الخصوصية والتعامل مع البيانات الخاصة بكل إضافة جديدة يتم إصدارها في أقسام مخصصة في هذه الصفحة.</p>
+        <p>تعتبر هذه الصفحة مرجعاً عاماً لجميع الإضافات الخاصة بنا. سيتم ذكر سياسة الخصوصية والتعامل مع البيانات الخاصة
+          بكل إضافة جديدة يتم إصدارها في أقسام مخصصة في هذه الصفحة.</p>
       </div>
 
       <div class="privacy-content">
         <h2>تواصل معنا</h2>
-        <p>إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يمكنك التواصل معنا عبر البريد الإلكتروني أو حسابات التواصل الاجتماعي المذكورة في الصفحة الرئيسية.</p>
+        <p>إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يمكنك التواصل معنا عبر البريد الإلكتروني أو حسابات التواصل
+          الاجتماعي المذكورة في الصفحة الرئيسية.</p>
       </div>
     </div>
 
     <!-- ENGLISH SECTION (Hidden by default) -->
     <div id="contentEN" style="display: none;">
       <h1>Browser Extensions Privacy Policy</h1>
-      
+
       <div class="privacy-content">
         <h2>LetterStremio Extension</h2>
         <p>The following details apply specifically to the <strong>LetterStremio</strong> extension:</p>
 
         <div style="margin-top: 20px;">
           <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">1. Functional Data Usage (Local)</h3>
-          <p>The developer does NOT collect or store any of your data. The following data is processed locally to ensure the extension functions:</p>
+          <p>The developer does NOT collect or store any of your data. The following data is processed locally to ensure
+            the extension functions:</p>
           <p>• <strong>Credentials:</strong> Your Stremio email and auth key (stored only locally in your browser).</p>
           <p>• <strong>Content Data:</strong> Movie metadata (title, IMDb ID) used to identify content on the page.</p>
         </div>
@@ -183,56 +200,66 @@
         <div style="margin-top: 20px;">
           <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">2. Data Processing</h3>
           <p>• Using the authentication key to communicate with Stremio's API on your behalf.</p>
-          <p>• Formatting and sending film metadata to your Stremio library when you click the "Add to Library" button.</p>
+          <p>• Formatting and sending film metadata to your Stremio library when you click the "Add to Library" button.
+          </p>
         </div>
 
         <div style="margin-top: 20px;">
           <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">3. Data Storage</h3>
-          <p>• Your email and activation key are stored <strong>only locally</strong> on your device (chrome.storage.local). We never store any of your data on our own servers.</p>
+          <p>• Your email and activation key are stored <strong>only locally</strong> on your device
+            (chrome.storage.local). We never store any of your data on our own servers.</p>
         </div>
 
         <div style="margin-top: 20px;">
           <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">4. Data Sharing</h3>
-          <p>• Your data is shared with <strong>Stremio's official API</strong> (api.strem.io) only when you request to add content to your library.</p>
+          <p>• Your data is shared with <strong>Stremio's official API</strong> (api.strem.io) only when you request to
+            add content to your library.</p>
         </div>
       </div>
 
       <div class="privacy-content">
         <h2>LetterNuvio Extension</h2>
-        <p>The following details apply specifically to the <strong>LetterNuvio</strong> extension:</p>
+        <p>The following details apply specifically to the <strong>LetterNuvio</strong> extension. This section outlines our data practices to ensure full compliance with privacy policies:</p>
 
         <div style="margin-top: 20px;">
-          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">1. Functional Data Usage (Local)</h3>
-          <p>The developer does NOT receive or track any of your information. Data is handled strictly for sync purposes:</p>
-          <p>• <strong>Credentials:</strong> Your Nuvio authentication token (JWT) (stored only locally on your device).</p>
-          <p>• <strong>Content Data:</strong> Movie metadata (title, IMDb/TMDB ID) required for identification.</p>
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">1. Data Collection and Usage</h3>
+          <p>To enable synchronization with your Nuvio account, we collect the following data:</p>
+          <p>• <strong>Credentials:</strong> Your Access Token (JWT) and Profile ID. These are required to authenticate and sync requests with your account.</p>
+          <p>• <strong>Content Metadata:</strong> Movie/Series title, release year, poster URL, and IMDb ID. This information is extracted from the Letterboxd page to be saved to your library.</p>
+          <p>• <strong>Technical Data:</strong> Search queries (film titles) are sent to the Cinemeta search engine to resolve correct IDs if they are not available on the page.</p>
         </div>
 
         <div style="margin-top: 20px;">
-          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">2. Data Processing</h3>
-          <p>• Using the authentication key to communicate with Nuvio's API (Supabase) on your behalf.</p>
-          <p>• Formatting and sending film metadata to your Nuvio library when you click the "Add to Library" button.</p>
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">2. Data Sharing (Third Parties)</h3>
+          <p>We never sell your data. We only share it with the following essential services:</p>
+          <p>• <strong>Nuvio Backend (Supabase):</strong> All library and authentication data is sent to Nuvio's official backend (dpyhjjcoabcglfmgecug.supabase.co).</p>
+          <p>• <strong>Cinemeta API (v3-cinemeta.strem.io):</strong> Used for resolving movie IDs. No personal information is shared with this service.</p>
         </div>
 
         <div style="margin-top: 20px;">
-          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">3. Data Storage</h3>
-          <p>• Your authentication key is stored <strong>only locally</strong> on your device (chrome.storage.local). We never store any of your data on our own servers.</p>
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">3. Data Storage and Retention</h3>
+          <p>• <strong>Local Storage:</strong> Authentication tokens are stored locally in your browser (chrome.storage.local) for seamless access.</p>
+          <p>• <strong>Cloud Storage:</strong> Library data is stored in the Nuvio cloud database associated with your account to ensure it remains accessible to you at any time.</p>
         </div>
 
         <div style="margin-top: 20px;">
-          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">4. Data Sharing</h3>
-          <p>• Your data is shared with <strong>Nuvio's official backend</strong> only when you request to add content to your library.</p>
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">4. User Rights and Data Deletion</h3>
+          <p>You have the right to access or delete your data at any time:</p>
+          <p>• You can delete locally stored data by logging out or removing the extension.</p>
+          <p>• To delete cloud-stored data, please use the official Nuvio application interface.</p>
         </div>
       </div>
 
       <div class="privacy-content">
         <h2>Other Extensions</h2>
-        <p>This page serves as a general reference for all our extensions. The privacy and data handling policy for any new extension released will be detailed in dedicated sections on this page.</p>
+        <p>This page serves as a general reference for all our extensions. The privacy and data handling policy for any
+          new extension released will be detailed in dedicated sections on this page.</p>
       </div>
 
       <div class="privacy-content">
         <h2>Contact Us</h2>
-        <p>If you have any questions regarding this privacy policy, you can reach out via email or the social media links provided on the home page.</p>
+        <p>If you have any questions regarding this privacy policy, you can reach out via email or the social media
+          links provided on the home page.</p>
       </div>
     </div>
 
@@ -250,14 +277,14 @@
     const contentEN = document.getElementById('contentEN');
     const btnBack = document.getElementById('btnBack');
     const htmlElement = document.documentElement;
-    
+
     // Arrows for back button
     const rtlArrow = document.querySelector('.rtl-arrow');
     const ltrArrow = document.querySelector('.ltr-arrow');
 
     langToggle.addEventListener('click', () => {
       const isArabic = htmlElement.getAttribute('lang') === 'ar';
-      
+
       if (isArabic) {
         // Switch to EN
         htmlElement.setAttribute('lang', 'en');
@@ -282,4 +309,5 @@
     });
   </script>
 </body>
+
 </html>
