@@ -7,7 +7,18 @@ https://dflive.app.tc/60.m3u8
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 3 
 https://dflive.app.tc/61.m3u8
 
-
+#EXTINF:-1 tvg-id="sathmanyah1fhd" tvg-name="SA - THMANYAH 1 FHD" tvg-logo="https://go4.pw/ARABE/thmanyah.png" group-title="AR | ARABIC SPORTS",SA - THMANYAH 1 FHD
+http://ysift55.xyz:80/live/WJ74AC4SRKQQYR7/pahruAQRs8/1279494.ts
+#EXTINF:-1 tvg-id="sathmanyah1hd" tvg-name="SA - THMANYAH 1 HD" tvg-logo="https://go4.pw/ARABE/thmanyah.png" group-title="AR | ARABIC SPORTS",SA - THMANYAH 1 HD
+http://ysift55.xyz:80/live/WJ74AC4SRKQQYR7/pahruAQRs8/1279492.ts
+#EXTINF:-1 tvg-id="sathmanyah2fhd" tvg-name="SA - THMANYAH 2 FHD" tvg-logo="https://go4.pw/ARABE/thmanyah.png" group-title="AR | ARABIC SPORTS",SA - THMANYAH 2 FHD
+http://ysift55.xyz:80/live/WJ74AC4SRKQQYR7/pahruAQRs8/1279493.ts
+#EXTINF:-1 tvg-id="sathmanyah2hd" tvg-name="SA - THMANYAH 2 HD" tvg-logo="https://go4.pw/ARABE/thmanyah.png" group-title="AR | ARABIC SPORTS",SA - THMANYAH 2 HD
+http://ysift55.xyz:80/live/WJ74AC4SRKQQYR7/pahruAQRs8/1279491.ts
+#EXTINF:-1 tvg-id="sathmanyah3hd" tvg-name="SA - THMANYAH 3 HD" tvg-logo="https://go4.pw/ARABE/thmanyah.png" group-title="AR | ARABIC SPORTS",SA - THMANYAH 3 HD
+http://ysift55.xyz:80/live/WJ74AC4SRKQQYR7/pahruAQRs8/1286660.ts
+#EXTINF:-1 tvg-id="sathmanyah3fhd" tvg-name="SA - THMANYAH 3 FHD" tvg-logo="https://go4.pw/ARABE/thmanyah.png" group-title="AR | ARABIC SPORTS",SA - THMANYAH 3 FHD
+http://ysift55.xyz:80/live/WJ74AC4SRKQQYR7/pahruAQRs8/1286659.ts
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 1
 http://baskhd2.ddns.net:1935/live/stvsport/chunklist.m3u8
