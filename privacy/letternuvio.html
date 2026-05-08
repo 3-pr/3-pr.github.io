@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - LetterNuvio</title>
+  <meta name="description" content="Privacy Policy for LetterNuvio Chrome Extension">
+  <meta name="theme-color" content="#0a0a0c">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" href="../img/profile.jpg">
+  <style>
+    .privacy-container {
+      max-width: 600px;
+      text-align: right;
+      padding-top: 60px;
+    }
+
+    [dir="ltr"] .privacy-container {
+      text-align: left;
+    }
+
+    .privacy-container h1 {
+      font-family: 'Thmanyah Serif Display', 'Thmanyah Sans', serif;
+      font-size: 28px;
+      color: var(--text-primary);
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .privacy-content {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius);
+      padding: 30px;
+      margin-bottom: 24px;
+    }
+
+    .privacy-content h2 {
+      font-size: 18px;
+      color: var(--accent);
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+
+    .privacy-content p {
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      margin-bottom: 30px;
+      transition: var(--transition);
+    }
+
+    .back-link:hover {
+      color: var(--accent);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Language Toggle -->
+  <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+    <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+      stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10" />
+      <path d="M2 12h20" />
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z" />
+    </svg>
+    <span id="langLabel">EN</span>
+  </button>
+
+  <div class="container privacy-container fade-in">
+    <a href="index.html" class="back-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 12H5M12 19l-7-7 7-7" class="ltr-arrow" style="display:none;" />
+        <path d="M5 12h14M12 5l7 7-7 7" class="rtl-arrow" />
+      </svg>
+      <span id="btnBack">العودة للخيارات</span>
+    </a>
+
+    <!-- ARABIC SECTION -->
+    <div id="contentAR">
+      <h1>سياسة الخصوصية - LetterNuvio</h1>
+      <div class="privacy-content">
+        <p>تهدف هذه السياسة لتوضيح كيفية تعاملنا مع بياناتك بكل شفافية لضمان الامتثال لسياسات الخصوصية العالمية، وتوضيح أننا لا نقوم بجمع أي بيانات شخصية لأغراض تتبعية أو تجارية.</p>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">1. جمع البيانات واستخدامها</h3>
+          <p>لتمكين مزامنة المحتوى مع حساب Nuvio الخاص بك، نجمع البيانات التالية التي تعتبر أساسية لعمل الإضافة:</p>
+          <p>• <strong>بيانات الاعتماد:</strong> رمز الوصول (JWT) ومعرف الملف الشخصي (Profile ID). تُستخدم هذه البيانات فقط لمصادقة عمليات الإضافة والمزامنة مع حسابك الشخصي في Nuvio.</p>
+          <p>• <strong>بيانات المحتوى:</strong> (عنوان الفيلم/المسلسل، سنة الإصدار، رابط صورة البوستر، ومعرف IMDb). تُجمع هذه المعلومات برمجياً من صفحة Letterboxd التي تتصفحها لغرض وحيد وهو تخزينها في مكتبتك عند طلبك.</p>
+          <p>• <strong>البيانات التقنية:</strong> يتم إرسال استعلامات نصية (عنوان الفيلم) إلى محرك بحث Cinemeta لإيجاد المعرفات التقنية الصحيحة (مثل معرف IMDb) في حال عدم توفرها في كود الصفحة الأصلي.</p>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">2. مشاركة البيانات (أطراف ثالثة)</h3>
+          <p>نحن نحترم خصوصيتك تماماً ولا نبيع أو نؤجر بياناتك لأي طرف. نشارك البيانات فقط مع الخدمات التقنية الرسمية اللازمة لعمل الإضافة:</p>
+          <p>• <strong>Nuvio Backend (Supabase):</strong> يتم إرسال بيانات المكتبة ورمز المصادقة إلى خادم Nuvio الرسمي (dpyhjjcoabcglfmgecug.supabase.co) لإتمام عملية المزامنة.</p>
+          <p>• <strong>Cinemeta API (v3-cinemeta.strem.io):</strong> يُستخدم للبحث عن المعرفات التقنية للمحتوى. لا يتم إرسال أي بيانات شخصية أو حسابية لهذا المحرك.</p>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">3. تخزين البيانات والاحتفاظ بها</h3>
+          <p>• <strong>التخزين المحلي:</strong> يتم تخزين رموز المصادقة محلياً في ذاكرة المتصفح (chrome.storage.local) لضمان بقاء تسجيل دخولك فعالاً دون الحاجة لإعادة الإدخال المتكرر.</p>
+          <p>• <strong>التخزين السحابي:</strong> بيانات المكتبة (الأفلام التي قمت بإضافتها) تُخزن سحابياً في قاعدة بيانات Nuvio الرسمية المرتبطة بحسابك لضمان توفر مكتبتك لك من أي جهاز آخر.</p>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">4. حقوق المستخدم وحذف البيانات</h3>
+          <p>لديك الحق الكامل والسيطرة المطلقة على بياناتك:</p>
+          <p>• يمكنك حذف بيانات الاعتماد المخزنة محلياً فوراً عن طريق تسجيل الخروج من الإضافة أو إزالتها من المتصفح.</p>
+          <p>• لحذف البيانات المخزنة سحابياً في مكتبة Nuvio، يمكنك القيام بذلك مباشرة عبر واجهة تطبيق Nuvio الرسمي.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ENGLISH SECTION -->
+    <div id="contentEN" style="display: none;">
+      <h1>Privacy Policy - LetterNuvio</h1>
+      <div class="privacy-content">
+        <p>This policy clarifies how we handle your data transparently to ensure compliance with global privacy standards, emphasizing that we do not collect personal data for tracking or commercial purposes.</p>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">1. Data Collection and Usage</h3>
+          <p>To enable synchronization with your Nuvio account, we collect the following essential data:</p>
+          <p>• <strong>Credentials:</strong> Your Access Token (JWT) and Profile ID. These are used strictly to authenticate and sync requests with your personal Nuvio account.</p>
+          <p>• <strong>Content Metadata:</strong> Movie/Series title, release year, poster URL, and IMDb ID. This information is extracted from the Letterboxd page you browse for the sole purpose of saving it to your library upon your request.</p>
+          <p>• <strong>Technical Data:</strong> Search queries (film titles) are sent to the Cinemeta search engine to resolve correct technical IDs (like IMDb ID) if they are not available in the original page code.</p>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">2. Data Sharing (Third Parties)</h3>
+          <p>We respect your privacy and never sell or rent your data. We only share data with the official technical services required for the extension to function:</p>
+          <p>• <strong>Nuvio Backend (Supabase):</strong> Library and authentication data are sent to Nuvio's official backend (dpyhjjcoabcglfmgecug.supabase.co) to complete the sync process.</p>
+          <p>• <strong>Cinemeta API (v3-cinemeta.strem.io):</strong> Used for resolving content IDs. No personal or account information is shared with this service.</p>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">3. Data Storage and Retention</h3>
+          <p>• <strong>Local Storage:</strong> Authentication tokens are stored locally in your browser (chrome.storage.local) to keep you logged in for a seamless experience.</p>
+          <p>• <strong>Cloud Storage:</strong> Library data (films you've added) is stored in the official Nuvio cloud database associated with your account, ensuring your library is accessible from any device.</p>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <h3 style="font-size: 16px; color: var(--accent); margin-bottom: 8px;">4. User Rights and Data Deletion</h3>
+          <p>You have full right and absolute control over your data:</p>
+          <p>• You can delete locally stored credentials immediately by logging out or removing the extension from your browser.</p>
+          <p>• To delete cloud-stored data in your Nuvio library, you can do so directly through the official Nuvio application interface.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer fade-in" style="margin-top: 30px;">
+      <p>© 2026 YASSER ALHARBI</p>
+    </div>
+  </div>
+
+  <script>
+    const langToggle = document.getElementById('langToggle');
+    const langLabel = document.getElementById('langLabel');
+    const contentAR = document.getElementById('contentAR');
+    const contentEN = document.getElementById('contentEN');
+    const btnBack = document.getElementById('btnBack');
+    const htmlElement = document.documentElement;
+    const rtlArrow = document.querySelector('.rtl-arrow');
+    const ltrArrow = document.querySelector('.ltr-arrow');
+
+    langToggle.addEventListener('click', () => {
+      const isArabic = htmlElement.getAttribute('lang') === 'ar';
+      if (isArabic) {
+        htmlElement.setAttribute('lang', 'en');
+        htmlElement.setAttribute('dir', 'ltr');
+        langLabel.textContent = 'AR';
+        contentAR.style.display = 'none';
+        contentEN.style.display = 'block';
+        btnBack.textContent = 'Back to Selection';
+        rtlArrow.style.display = 'none';
+        ltrArrow.style.display = 'block';
+      } else {
+        htmlElement.setAttribute('lang', 'ar');
+        htmlElement.setAttribute('dir', 'rtl');
+        langLabel.textContent = 'EN';
+        contentAR.style.display = 'block';
+        contentEN.style.display = 'none';
+        btnBack.textContent = 'العودة للخيارات';
+        rtlArrow.style.display = 'block';
+        ltrArrow.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
