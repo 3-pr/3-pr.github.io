@@ -168,9 +168,8 @@
     const rtlArrow = document.querySelector('.rtl-arrow');
     const ltrArrow = document.querySelector('.ltr-arrow');
 
-    langToggle.addEventListener('click', () => {
-      const isArabic = htmlElement.getAttribute('lang') === 'ar';
-      if (isArabic) {
+    function updateLang(isArabic) {
+      if (!isArabic) {
         htmlElement.setAttribute('lang', 'en');
         htmlElement.setAttribute('dir', 'ltr');
         langLabel.textContent = 'AR';
@@ -189,6 +188,17 @@
         rtlArrow.style.display = 'block';
         ltrArrow.style.display = 'none';
       }
+    }
+
+    // Auto-detect language on load
+    const userLang = navigator.language || navigator.userLanguage;
+    if (!userLang.startsWith('ar')) {
+      updateLang(false);
+    }
+
+    langToggle.addEventListener('click', () => {
+      const isArabic = htmlElement.getAttribute('lang') === 'ar';
+      updateLang(!isArabic);
     });
   </script>
 </body>
