@@ -7,61 +7,49 @@ https://dflive.app.tc/60.m3u8
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/thm.jpeg" , thmanyah 3 
 https://dflive.app.tc/61.m3u8
 
-#EXTINF:-1 tvg-id="sathmanyah1fhd" tvg-name="SA - THMANYAH 1 FHD" tvg-logo="https://go4.pw/ARABE/thmanyah.png" group-title="AR | ARABIC SPORTS",SA - THMANYAH 1 FHD
-http://ysift55.xyz:80/live/WJ74AC4SRKQQYR7/pahruAQRs8/1279494.ts
-#EXTINF:-1 tvg-id="sathmanyah1hd" tvg-name="SA - THMANYAH 1 HD" tvg-logo="https://go4.pw/ARABE/thmanyah.png" group-title="AR | ARABIC SPORTS",SA - THMANYAH 1 HD
-http://ysift55.xyz:80/live/WJ74AC4SRKQQYR7/pahruAQRs8/1279492.ts
-#EXTINF:-1 tvg-id="sathmanyah2fhd" tvg-name="SA - THMANYAH 2 FHD" tvg-logo="https://go4.pw/ARABE/thmanyah.png" group-title="AR | ARABIC SPORTS",SA - THMANYAH 2 FHD
-http://ysift55.xyz:80/live/WJ74AC4SRKQQYR7/pahruAQRs8/1279493.ts
-#EXTINF:-1 tvg-id="sathmanyah2hd" tvg-name="SA - THMANYAH 2 HD" tvg-logo="https://go4.pw/ARABE/thmanyah.png" group-title="AR | ARABIC SPORTS",SA - THMANYAH 2 HD
-http://ysift55.xyz:80/live/WJ74AC4SRKQQYR7/pahruAQRs8/1279491.ts
-#EXTINF:-1 tvg-id="sathmanyah3hd" tvg-name="SA - THMANYAH 3 HD" tvg-logo="https://go4.pw/ARABE/thmanyah.png" group-title="AR | ARABIC SPORTS",SA - THMANYAH 3 HD
-http://ysift55.xyz:80/live/WJ74AC4SRKQQYR7/pahruAQRs8/1286660.ts
-#EXTINF:-1 tvg-id="sathmanyah3fhd" tvg-name="SA - THMANYAH 3 FHD" tvg-logo="https://go4.pw/ARABE/thmanyah.png" group-title="AR | ARABIC SPORTS",SA - THMANYAH 3 FHD
-http://ysift55.xyz:80/live/WJ74AC4SRKQQYR7/pahruAQRs8/1286659.ts
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 1
 http://baskhd2.ddns.net:1935/live/stvsport/chunklist.m3u8
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 1 server 2
-http://afcocafot.com:8080/bn1hd/index.m3u8
+http://1080107008.41865795.xyz/live/1080107008/6914493294/569518.ts
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 2
-http://afcocafot.com:8080/bn2hd/index.m3u8
+http://1080107008.41865795.xyz/live/1080107008/6914493294/569517.ts
 #EXTINF:-1 group-title="sports" tvg-logo=4"https://3-pr.github.io/logos/bein.jpeg" ,BEIN 3
-http://tv.startseven.tn:2052/live/32145BN/FRdin123/49370.ts
+http://1.selecttv.biz:2052/live/Vwagosmv2/gXZg9Q6jB2aF/49370.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 4
-http://tv.startseven.tn:2052/live/t5fus4VRzdAW/RsHeAhYzC9sn/20736.ts
+http://1.selecttv.biz:2052/live/Vwagosmv2/gXZg9Q6jB2aF/20736.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 5
-http://tv.startseven.tn:2052/live/32145BN/FRdin123/48222.ts
+http://1.selecttv.biz:2052/live/Vwagosmv2/gXZg9Q6jB2aF/48222.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 6
-http://tv.startseven.tn:2052/live/32145BN/FRdin123/48221.ts
+http://1.selecttv.biz:2052/live/Vwagosmv2/gXZg9Q6jB2aF/48221.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 7
-http://tv.startseven.tn:2052/live/32145BN/FRdin123/48220.ts
+http://1.selecttv.biz:2052/live/Vwagosmv2/gXZg9Q6jB2aF/48220.ts
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 8
-http://afcocafot.com:8080/bn8hd/index.m3u8
+http://goldiptvofficiel.tv:25461/live/vincent.barnachon.six1/WZbh3gPWCvC4/1879.ts
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 9
-http://afcocafot.com:8080/bn9hd/index.m3u8
+http://goldiptvofficiel.tv:25461/live/vincent.barnachon.six1/WZbh3gPWCvC4/1880.ts
 
-#EXTINF:-1 tvg-name="AR - ALWAN SPORT 1 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 1 4K
-http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/418112.ts
-#EXTINF:-1 tvg-name="AR - ALWAN SPORT 2 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 2 4K
-http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/418115.ts
-#EXTINF:-1 tvg-name="AR - ALWAN SPORT 3 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 3 4K
-http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/418118.ts
-#EXTINF:-1 tvg-name="AR - ALWAN SPORT 4 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 4 4K
-http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/418121.ts
-#EXTINF:-1 tvg-name="AR - ALWAN SPORT 5 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 5 4K
-http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/418124.ts
-#EXTINF:-1 tvg-name="AR - ALWAN SPORT 6 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 6 4K
-http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/418127.ts
-#EXTINF:-1 tvg-name="AR - ALWAN SPORT 7 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 7 4K
-http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/433739.ts
-#EXTINF:-1 tvg-name="AR - ALWAN SPORT 8 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 8 4K
-http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/433740.ts
-#EXTINF:-1 tvg-name="AR - ALWAN SPORT 9 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 9 4K
-http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/433741.ts
-#EXTINF:-1 tvg-name="AR - ALWAN SPORT 10 4K" tvg-logo="https://go4.pw/ARABE/alwan.png" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 10 4K
-http://xxip.me:8080/live/98:06:3c:75:c0:72/443367897666trytfg/433742.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 1 4K" tvg-logo="https://3-pr.github.io/logos/alwan.jpg" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 1 4K
+http://pro.netmos.ovh:7355/live/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181661.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 2 4K" tvg-logo=""https://3-pr.github.io/logos/alwan.jpg" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 2 4K
+https://stream.camcloud.stream/stream/8dd8ad49bb05/playlist.m3u8
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 3 4K" tvg-logo=""https://3-pr.github.io/logos/alwan.jpg" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 3 4K
+https://stream.camcloud.stream/stream/075f2d3a2988/playlist.m3u8
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 4 4K" tvg-logo=""https://3-pr.github.io/logos/alwan.jpg" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 4 4K
+https://stream.camcloud.stream/stream/4994d2defc1a/playlist.m3u8
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 5 4K" tvg-logo=""https://3-pr.github.io/logos/alwan.jpg" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 5 4K
+http://pro.netmos.ovh:7355/live/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181673.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 6 4K" tvg-logo=""https://3-pr.github.io/logos/alwan.jpg" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 6 4K
+http://pro.netmos.ovh:7355/live/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181676.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 7 4K" tvg-logo=""https://3-pr.github.io/logos/alwan.jpg" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 7 4K
+http://bossposs.xyz:8080/live/254217135819/207042479466/433739.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 8 4K" tvg-logo=""https://3-pr.github.io/logos/alwan.jpg" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 8 4K
+http://bossposs.xyz:8080/live/254217135819/207042479466/433740.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 9 4K" tvg-logo=""https://3-pr.github.io/logos/alwan.jpg" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 9 4K
+http://bossposs.xyz:8080/live/254217135819/207042479466/433741.ts
+#EXTINF:-1 tvg-name="AR - ALWAN SPORT 10 4K" tvg-logo=""https://3-pr.github.io/logos/alwan.jpg" group-title="AR | ALWAN SPORTS",AR - ALWAN SPORT 10 4K
+http://bossposs.xyz:8080/live/254217135819/207042479466/433742.ts
