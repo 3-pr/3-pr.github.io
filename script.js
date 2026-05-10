@@ -2,7 +2,7 @@
 const translations = {
   ar: {
     name: 'ياسر الحربي',
-    bio: 'شغوف بالبرمجة، أصنع أدوات تسهل حياتك الرقمية.',
+    bio: 'أبني أدوات… أحيانًا بدون سبب واضح 😁',
     twitter_title: 'تويتر / إكس',
     telegram_title: 'تيليجرام',
     github_title: 'قيت هوب',
@@ -30,7 +30,7 @@ const translations = {
   },
   en: {
     name: 'YASSER ALHARBI',
-    bio: 'Passionate developer, building tools to simplify your digital life.',
+    bio: 'I build tools… sometimes for no clear reason 😁',
     twitter_title: 'Twitter / X',
     telegram_title: 'Telegram',
     github_title: 'GitHub',
