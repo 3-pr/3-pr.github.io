@@ -11,24 +11,26 @@ https://dflive.app.tc/61.m3u8
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 1
 http://baskhd2.ddns.net:1935/live/stvsport/chunklist.m3u8
 
+
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 1 server 2
-http://1080107008.41865795.xyz/live/1080107008/6914493294/569518.ts
+http://81637.org:2052/live/ibPVHswWxA/ABWNt8DFby/265.ts
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 2
-http://1080107008.41865795.xyz/live/1080107008/6914493294/569517.ts
+http://81637.org:2052/live/ibPVHswWxA/ABWNt8DFby/266.ts
 #EXTINF:-1 group-title="sports" tvg-logo=4"https://3-pr.github.io/logos/bein.jpeg" ,BEIN 3
-http://1.selecttv.biz:2052/live/Vwagosmv2/gXZg9Q6jB2aF/49370.ts
+http://81637.org:2052/live/ibPVHswWxA/ABWNt8DFby/267.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 4
-http://1.selecttv.biz:2052/live/Vwagosmv2/gXZg9Q6jB2aF/20736.ts
+http://81637.org:2052/live/ibPVHswWxA/ABWNt8DFby/268.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 5
-http://1.selecttv.biz:2052/live/Vwagosmv2/gXZg9Q6jB2aF/48222.ts
+http://81637.org:2052/live/ibPVHswWxA/ABWNt8DFby/269.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 6
-http://1.selecttv.biz:2052/live/Vwagosmv2/gXZg9Q6jB2aF/48221.ts
+http://81637.org:2052/live/ibPVHswWxA/ABWNt8DFby/270.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 7
-http://1.selecttv.biz:2052/live/Vwagosmv2/gXZg9Q6jB2aF/48220.ts
+http://81637.org:2052/live/ibPVHswWxA/ABWNt8DFby/271.ts
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 8
-http://goldiptvofficiel.tv:25461/live/vincent.barnachon.six1/WZbh3gPWCvC4/1879.ts
+http://81637.org:2052/live/mohsentv1/mabrouk/230.ts
+
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/bein.jpeg" ,BEIN 9
 http://goldiptvofficiel.tv:25461/live/vincent.barnachon.six1/WZbh3gPWCvC4/1880.ts
