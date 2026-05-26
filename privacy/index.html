@@ -108,6 +108,15 @@
     <h1 id="titleText">سياسة الخصوصية</h1>
 
     <div class="options-grid">
+      <a href="stremiohub.html" class="option-card">
+        <svg class="option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10" />
+          <polygon points="10 8 16 12 10 16 10 8" />
+        </svg>
+        <span class="option-name">StremioHub</span>
+        <span class="option-desc" id="descStremioHub">سياسة خصوصية إضافة StremioHub</span>
+      </a>
+
       <a href="letternuvio.html" class="option-card">
         <svg class="option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
@@ -147,6 +156,7 @@
     const titleText = document.getElementById('titleText');
     const descNuvio = document.getElementById('descNuvio');
     const descStremio = document.getElementById('descStremio');
+    const descStremioHub = document.getElementById('descStremioHub');
     const btnBack = document.getElementById('btnBack');
     const htmlElement = document.documentElement;
     const rtlArrow = document.querySelector('.rtl-arrow');
@@ -160,6 +170,7 @@
         titleText.textContent = 'Privacy Policy';
         descNuvio.textContent = 'LetterNuvio Privacy Policy';
         descStremio.textContent = 'LetterStremio Privacy Policy';
+        descStremioHub.textContent = 'StremioHub Privacy Policy';
         btnBack.textContent = 'Back to Home';
         rtlArrow.style.display = 'none';
         ltrArrow.style.display = 'block';
@@ -170,6 +181,7 @@
         titleText.textContent = 'سياسة الخصوصية';
         descNuvio.textContent = 'سياسة خصوصية إضافة LetterNuvio';
         descStremio.textContent = 'سياسة خصوصية إضافة LetterStremio';
+        descStremioHub.textContent = 'سياسة خصوصية إضافة StremioHub';
         btnBack.textContent = 'العودة للرئيسية';
         rtlArrow.style.display = 'block';
         ltrArrow.style.display = 'none';
