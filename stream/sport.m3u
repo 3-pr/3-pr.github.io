@@ -59,3 +59,10 @@ http://supaapp.xyz:8080/live/bc:7e:8b:01:ae:d1/E8nSi2tCA3bgR3jM/433742.ts
 
 #EXTINF:-1 group-title="sports" tvg-logo="https://upload.wikimedia.org/wikipedia/ar/thumb/5/5b/%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A_%D9%84%D9%83%D8%B1%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D9%85.svg/500px-%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A_%D9%84%D9%83%D8%B1%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D9%85.svg.png" ,SAUDI 
 https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/TOyAag68RgpBkeB4kqd7aqqgFfXT4y7Kq4nVJ_caHYqu5HPlfbWF3QOaebvo8baBuTRx4JNOuNxwSe_fd1apoQ/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDYwXzEwIiwiSGVpZ2h0IjoxMDgwLCJIaWdoRnJhbWVSYXRlIjp0cnVlLCJLYnBzIjo4MDAwLCJXaWR0aCI6MTkyMH0.OBq8EsoF4c8ydlmfZFxJzACPHYFjmjUaSER2wvsfHso/dynamic_delta.m3u8?type=live
+
+#EXTINF:-1 group-title="sports" tvg-logo="https://upload.wikimedia.org/wikipedia/ar/thumb/5/5b/%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A_%D9%84%D9%83%D8%B1%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D9%85.svg/500px-%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A_%D9%84%D9%83%D8%B1%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D9%85.svg.png" ,SAUDI 2
+https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/QiTqjaDXk8qFLbLpa04KIoUakM8Mtcb_NNoyrFrgKORUSWGnKLcN3kIe9-3-2XxrHEbtJ1oBUjORZtROQDC34A/non_transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/master_dynamic_delta.m3u8?type=live
+
+
+
+
