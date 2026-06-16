@@ -44,7 +44,7 @@ https://stream.camcloud.stream/stream/8dd8ad49bb05/playlist.m3u8
 https://stream.camcloud.stream/stream/075f2d3a2988/playlist.m3u8
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/alwan.jpg" ,ALWAN SPORT 4 4K
 https://stream.camcloud.stream/stream/4994d2defc1a/playlist.m3u8
-#EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/alwan.jpg" ,ALWAN SPORT 5 4K
+	#EXTINF:-1 group-title="sports" tvglogo="https://3-pr.github.io/logos/alwan.jpg" ,ALWAN SPORT 5 4K
 http://pro.netmos.ovh:7355/live/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181673.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/alwan.jpg" ,ALWAN SPORT 6 4K
 http://pro.netmos.ovh:7355/live/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181676.ts
@@ -57,11 +57,4 @@ http://supaapp.xyz:8080/live/68:fc:ca:55:0c:33/217578005705/433741.ts
 #EXTINF:-1 group-title="sports" tvg-logo="https://3-pr.github.io/logos/alwan.jpg" ,ALWAN SPORT 10 4K
 http://supaapp.xyz:8080/live/bc:7e:8b:01:ae:d1/E8nSi2tCA3bgR3jM/433742.ts
 
-#EXTINF:-1 group-title="sports" tvg-logo="https://upload.wikimedia.org/wikipedia/ar/thumb/5/5b/%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A_%D9%84%D9%83%D8%B1%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D9%85.svg/500px-%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A_%D9%84%D9%83%D8%B1%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D9%85.svg.png" ,SAUDI 
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/TOyAag68RgpBkeB4kqd7aqqgFfXT4y7Kq4nVJ_caHYqu5HPlfbWF3QOaebvo8baBuTRx4JNOuNxwSe_fd1apoQ/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDYwXzEwIiwiSGVpZ2h0IjoxMDgwLCJIaWdoRnJhbWVSYXRlIjp0cnVlLCJLYnBzIjo4MDAwLCJXaWR0aCI6MTkyMH0.OBq8EsoF4c8ydlmfZFxJzACPHYFjmjUaSER2wvsfHso/dynamic_delta.m3u8?type=live
 
-#EXTINF:-1 group-title="sports" tvg-logo="https://upload.wikimedia.org/wikipedia/ar/thumb/5/5b/%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A_%D9%84%D9%83%D8%B1%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D9%85.svg/500px-%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A_%D9%84%D9%83%D8%B1%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D9%85.svg.png" ,SAUDI 2
-https://prod-fastly-eu-west-3.video.pscp.tv/Transcoding/v1/hls/BeinrIeINYtqX_OXe4jeoVOz8S_H6IPLNvuSJ4hrjwnBoKbHvet_IyLuwrEDxr-5qXGbgeA-bRoBwA43SVsbKA/transcode/eu-west-3/periscope-replay-direct-prod-eu-west-3-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDYwXzEwIiwiSGVpZ2h0IjoxMDgwLCJIaWdoRnJhbWVSYXRlIjp0cnVlLCJLYnBzIjo4MDAwLCJXaWR0aCI6MTkyMH0.OBq8EsoF4c8ydlmfZFxJzACPHYFjmjUaSER2wvsfHso/tw_dynamic_delta.m3u8?type=live&_HLS_skip=YES
-
-#EXTINF:-1 group-title="sports" tvg-logo="https://upload.wikimedia.org/wikipedia/ar/thumb/5/5b/%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A_%D9%84%D9%83%D8%B1%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D9%85.svg/500px-%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A_%D9%84%D9%83%D8%B1%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D9%85.svg.png" ,SAUDI 3
-'https://prod-fastly-eu-west-3.video.pscp.tv/Transcoding/v1/hls/TuvWbPTNbyTaZ7TIbjR6_FvJj-5CYAAU_S78zLtcQKpImVvvCfLENp3Wxl-7qX0QyKVWJSwxiyLtBgBsjEyFaA/transcode/eu-west-3/periscope-replay-direct-prod-eu-west-3-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/tw_dynamic_delta.m3u8?type=live
